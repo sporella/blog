@@ -22,7 +22,7 @@ pygmentsStyle = "paraiso-dark"
   [[menu.nav]]
     name = "Inicio"
     pre = "home"
-    url = "/"
+    url = "/_index/"
     weight = 1
   [[menu.nav]]
     name = "Sobre mí"
