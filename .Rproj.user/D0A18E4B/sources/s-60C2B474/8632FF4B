@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588276996743.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2961529766",
+    "id" : "8632FF4B",
+    "lastKnownWriteTime" : 1588287219,
+    "last_content_update" : 1588287219839,
+    "path" : "C:/Users/PEZ/Desktop/git/blogsite2/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "5,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

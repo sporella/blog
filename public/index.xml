@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephanie Orellana</title>
+    <link>/</link>
+    <description>Recent content on Stephanie Orellana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¡Hola blogdown!</title>
+      <link>/2019-09-24-hola-blogdown/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019-09-24-hola-blogdown/</guid>
+      <description>Aprovechando que se abrieron las postulaciones para las becas de diversidad rstudio::conf(2020) asistí a la mentoría de R-Ladies Santiago en donde aprendimos a sistematizar nuestros proyectos mediante una página web usando el paquete blogdown.
+Así que me animé a hacer una web personal en donde ir escribiendo sobre todas las nuevas cosas que voy aprendiendo en el extenso universo de R. Esta primera entrada es acerca de blogdown y lo fácil que es hacer un sitio web con conocimientos mínimos de css o html, aunque sí es necesario saber cosas de R y R markdown.</description>
+    </item>
+    
+    <item>
+      <title>Proyectos</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Cursos y talleres   R-Ladies Chile - Taller sobre datos espaciales (9 de mayo 2020)
+  Curso &amp;ldquo;Ciencia de datos en Recursos Naturales&amp;rdquo; - Facultad de Agronomía e Ing. Forestal UC (segundo semestre 2019)
+  Presentaciones en Conferencias   Latin R 2019 - Utilizar R como un Sistema de Información Geográfica y hacer análisis reproducible
+  satRDay Santiago 2018 - Evaluando tendencias recientes en índices agroclimáticos utilizando imágenes satelitales MODIS</description>
+    </item>
+    
+    <item>
+      <title>Sobre mí</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Soy de Santiago de Chile.
+Soy Ingeniera Agrónoma y me dedico a la Ciencia de Datos con enfoque en los Recursos Naturales. Mi mayor interés son los datos espaciales y la visualización de datos, así como todo lo que el mundo de la programación tiene para ofrecer.
+Actualmente trabajo como Data Scientist en Cienciambiental Consultores. También soy parte de R-Ladies Santiago.
+Fuera del trabajo canto en un coro, escribo algunos cuentos y cocino los fines de semana.</description>
+    </item>
+    
+    <item>
+      <title>Stephanie Orellana</title>
+      <link>/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/</guid>
+      <description>HOLA</description>
+    </item>
+    
+  </channel>
+</rss>

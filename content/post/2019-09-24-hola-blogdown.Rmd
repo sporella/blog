@@ -1,0 +1,33 @@
+---
+title: ¡Hola blogdown!
+author: Stephanie Orellana
+date: '2019-09-24'
+categories:
+  - R
+tags:
+  - blogdown
+  - R
+slug: hola-blogdown
+---
+
+-----
+
+Aprovechando que se abrieron las postulaciones para las becas de diversidad [rstudio::conf(2020)](https://blog.rstudio.com/2019/08/30/diversity-scholarships/) asistí a la mentoría de [R-Ladies Santiago](https://www.meetup.com/es-ES/rladies-scl/events/264712551/?comment_table_id=504746815&comment_table_name=event_comment) en donde aprendimos a sistematizar nuestros proyectos mediante una página web usando el paquete blogdown.
+
+Así que me animé a hacer una web personal en donde ir escribiendo sobre todas las nuevas cosas que voy aprendiendo en el extenso universo de R. Esta primera entrada es acerca de blogdown y lo fácil que es hacer un sitio web con conocimientos mínimos de css o html, aunque sí es necesario saber cosas de R y R markdown.
+
+Seguí las instrucciones del libro "blogdown: Creating Websites with R Markdown" que se encuentra disponible en su versión on-line [aquí](https://bookdown.org/yihui/blogdown/).
+
+<center>![](https://bookdown.org/yihui/blogdown/images/cover.png){width=30%}</center>
+
+Antes de terminar la primera sección ya tenía mi sitio web en su versión esqueleto. Lo más difícil para mí fue lograr decidirme por cuál tema usar (aún no lo decido 100%) y lograr entender bien la estructura de los archivos y cuál es su función dentro la página web. Me resultaron muy útiles los [Addins](https://bookdown.org/yihui/blogdown/rstudio-ide.html) que trae el paquete, en especial el de "New Post".
+
+Habiendo modificado las cosas principales, el siguiente desafío fue publicarlo para que esté disponible en la web y no solamente de forma local. Acá seguí lo que aprendimos con [Riva](http://www.rivaquiroga.cl) en el MeetUp de R-Ladies y lo hice a través de [Netlify](http://www.netlify.com) conectando mi sitio a través de mi repositorio en GitHub.
+
+Después de unos 10 intentos en los que obtube "Error 255" al hacer **deploy**, leí los errores frecuentes en la misma página de [Netlify](https://www.netlify.com/docs/build-gotchas/?_ga=2.69554832.1458849235.1569271091-148283585.1569271091#hugo) y modifiqué en **Environment variables** la versión de Hugo para que fuese la misma que tenía instalada de forma local. Esto se hace con la variable "HUGO_VERSION" y la versión que obtuve desde `blogdown::hugo_version()`.
+
+Así, mi sitio pudo estar disponible online! (¡y es el que estás leyendo!)
+
+Lo mejor es que al estar conectado a GitHub, cada vez que actualizo mi repositorio el sitio web se actualiza en segundos, lo que es muy cómodo para no tener que volver a publicarlo cada vez que quiero escribir una entrada nueva.
+
+Mi primera experiencia con blogdown resultó muy intuitiva y rápida por lo que no puedo esperar para seguir explorando todas sus posibilidades!
