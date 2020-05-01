@@ -22,7 +22,7 @@ pygmentsStyle = "paraiso-dark"
   [[menu.nav]]
     name = "Inicio"
     pre = "home"
-    url = "/_index/"
+    url = "/"
     weight = 1
   [[menu.nav]]
     name = "Sobre mí"
@@ -47,7 +47,7 @@ pygmentsStyle = "paraiso-dark"
 
 
 [params]
-  includeBootstrapJs = true
+  includeBootstrapJs = false
   showActiveNav = true
   containerMaxWidth = "1200px"
   dateFormat = "Jan 2, 2006"
