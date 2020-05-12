@@ -87,7 +87,7 @@ Una medida de 0.0 a 1.0 que describe la positividad musical transmitida por una 
 
 ![](https://github.com/sporella/nightingale/blob/master/plots/uno/valence.png?raw=true)
 
-Como se observa, el disco tiene pocos momentos de felicidad (todas las pistas están bajo el 0.5), es un disco melancólico, así que los fans están en su derecho a emocionarse y llorar en pantalla. Un dato curioso, es que en el primer disco, las tres canciones con más valencia fueron las que se tomar como singles del album, justo en ese orden.
+Como se observa, el disco tiene pocos momentos de felicidad (todas las pistas están bajo el 0.5), es un disco melancólico, así que los fans están en su derecho a emocionarse y llorar en pantalla. Un dato curioso, es que en el primer disco, las tres canciones con más valencia fueron las que se tomaron como singles del album, justo en ese orden.
 
 Acá les dejo la favorita de los fans:
 
