@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Stephanie Orellana</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Stephanie Orellana</description>
+    <title>música on Stephanie Orellana</title>
+    <link>/tags/m%C3%BAsica/</link>
+    <description>Recent content in música on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/m%C3%BAsica/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>Empieza el desafío #30díasdegráficos propuesto por la comunidad R4DS_es, comunidad hispanohablante de R para recordar a Florence Nightingale y aprender sobre visualización de datos.
 En este primer día, la consigna fue crear un gráfico de barras/columna.
 Hace tiempo que tenía ganas de trabjar con la API de Spotify y decidí visualizar las estadísticas que genera Spotify para caracterizar las canciones, esto utilizando el paquete Rspotify y mi álbum favorito durante esta cuarentena: HVMAN.</description>
-    </item>
-    
-    <item>
-      <title>¡Hola blogdown!</title>
-      <link>/2019-09-24-hola-blogdown/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019-09-24-hola-blogdown/</guid>
-      <description>Aprovechando que se abrieron las postulaciones para las becas de diversidad rstudio::conf(2020) asistí a la mentoría de R-Ladies Santiago en donde aprendimos a sistematizar nuestros proyectos mediante una página web usando el paquete blogdown.
-Así que me animé a hacer una web personal en donde ir escribiendo sobre todas las nuevas cosas que voy aprendiendo en el extenso universo de R. Esta primera entrada es acerca de blogdown y lo fácil que es hacer un sitio web con conocimientos mínimos de css o html, aunque sí es necesario saber cosas de R y R markdown.</description>
     </item>
     
   </channel>
