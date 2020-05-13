@@ -167,10 +167,10 @@ audio {
   <i data-feather="tag"></i>
   
   
-  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/m%C3%BAsica">música</a>
-  
-  
   <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/ggplot2">ggplot2</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/m%C3%BAsica">música</a>
   
 
 <br><br>
@@ -184,7 +184,7 @@ audio {
 <h2>Nightwish</h2>
 <p><a href="https://es.wikipedia.org/wiki/Nightwish">Nightwish</a> es una banda de métal sinfónico originaria de Finlandia, la cual se hizo conocida en los 2000 por ser una de las bandas más importantes de métal sinfónico. La composición de letra y música la realiza en un 95% el tecladista <a href="https://es.wikipedia.org/wiki/Tuomas_Holopainen">Tuomas Holopainen</a> y la banda se caracteriza por contar con una voz femenina y un sonido sinfónico bombástico (power metal sinfónico). En sus 20 años de historia ha tenido tres cantantes diferentes: Tarja Turunen (voz soprano), Anette Olson (voz rock-pop) y Floor Jansen (voz soprano-rock-metal-pop).</p>
 <p>Durante 5 años se esperó su más reciente disco, el cual se tituló HVMAN.:||:NATVRE. Este álbum tuvo opiniones divididas entre los críticos por considerarlo muy alejado del metal, pero los fans lo consideran una “obra maestra”. Después de un mes de su lanzamiento hay cientos de videos en Youtube en donde fans, profesores de canto, músicos, etc. reaccionan a cada canción e incluso lloran frente a la cámara. El disco también ha alcanzado el TOP 10 en varios países tanto en copias físicas como digitales.</p>
-<p>Este álbum es un álbum doble, en donde el primer disco “HVMAN” se caracteriza por el uso de las voces. La cantante principal <a href="https://es.wikipedia.org/wiki/Floor_Jansen">Floor Jansen</a> demuestra diferentes facetas de su amplio registro vocal (desde rock a soprano dramática) cantando melodías muy complejas, también, en cada coro (estribillo) del disco, se pueden escuchar tres voces en armonías de los integrantes Floor, Marco y Troy. En este disco, Nightwish por primera vez en muchos años no utiliza una orquesta sinfónica, sino que sólo un cuarteto de cuerdas.</p>
+<p>Este álbum es un álbum doble, en donde el primer disco “HVMAN” se caracteriza por el uso de las voces. La cantante principal <a href="https://es.wikipedia.org/wiki/Floor_Jansen">Floor Jansen</a> demuestra diferentes facetas de su amplio registro vocal (desde rock a soprano dramática) cantando melodías muy complejas. También, en cada coro (estribillo) del disco, se pueden escuchar tres voces en armonías de los integrantes Floor, Marco y Troy. En este disco, Nightwish por primera vez en muchos años no utiliza una orquesta sinfónica, sino que sólo un cuarteto de cuerdas.</p>
 <p>El segundo disco, “NATVRE” es un disco instrumental en donde se divide la canción “All the Works of Nature Which Adorn the World” en ocho movimientos. Es un disco dedicado a la naturaleza y es completamente sinfónico, la banda no está presente, sólo el tecladista Tuomas Holopainen, la cantante Floor Jansen (haciendo vocalizaciones en voz lírica) y Troy Donockley en instrumentos de viento como gaita irlandesa.</p>
 </div>
 <div id="api-spotify-y-r" class="section level2">
@@ -210,7 +210,7 @@ hn &lt;- getAlbum(&quot;1iSsdlURK7CGUVlcz4M5Li&quot;, token = my_oauth) %&gt;%
           disc_name = if_else(disc_number ==1, &quot;HVMAN&quot;, &quot;NATVRE&quot;),
     name = str_replace(name, pattern = &quot;All the Works of Nature Which Adorn the World - &quot;,
                        replacement = &quot;&quot;))</code></pre>
-<p>Me propuese como desafío utilizar sólo librerías de tidyverse, para no crear bucles. También cambié algunas cosas sobre los datos del disco que estaban erradas en Spotify.</p>
+<p>Me propuse como desafío utilizar sólo librerías de tidyverse, para no crear bucles. También cambié algunas cosas sobre los datos del disco que estaban erradas en Spotify.</p>
 </div>
 <div id="spotify-features" class="section level2">
 <h2>Spotify features</h2>
@@ -226,7 +226,7 @@ hn &lt;- getAlbum(&quot;1iSsdlURK7CGUVlcz4M5Li&quot;, token = my_oauth) %&gt;%
 <p><strong>Valence</strong></p>
 <p>Una medida de 0.0 a 1.0 que describe la positividad musical transmitida por una pista. Las pistas con alta valencia suenan más positivas (por ejemplo, feliz, alegre, eufórica), mientras que las pistas con baja valencia suenan más negativas (por ejemplo, triste, deprimido, enojado).</p>
 <p><img src="https://github.com/sporella/nightingale/blob/master/plots/uno/valence.png?raw=true" /></p>
-<p>Como se observa, el disco tiene pocos momentos de felicidad (todas las pistas están bajo el 0.5), es un disco melancólico, así que los fans están en su derecho a emocionarse y llorar en pantalla. Un dato curioso, es que en el primer disco, las tres canciones con más valencia fueron las que se tomar como singles del album, justo en ese orden.</p>
+<p>Como se observa, el disco tiene pocos momentos de felicidad (todas las pistas están bajo el 0.5), es un disco melancólico, así que los fans están en su derecho a emocionarse y llorar en pantalla. Un dato curioso, es que en el primer disco, las tres canciones con más valencia fueron las que se tomaron como singles del album, justo en ese orden.</p>
 <p>Acá les dejo la favorita de los fans:</p>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rjp_DfvJimg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
