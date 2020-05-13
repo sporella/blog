@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>chile</title>
+      <link>/tags/chile/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>highcharter</title>
+      <link>/tags/highcharter/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/highcharter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyverse</title>
+      <link>/tags/tidyverse/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidyverse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ggplot2</title>
