@@ -1,0 +1,266 @@
+<!doctype html>
+
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="generator" content="Hugo 0.69.2" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  
+  
+  <title>Visualización con highcharter: Brecha de género en carreras tecnológicas | Stephanie Orellana</title>
+  <style>
+.container {
+  max-width: 1200px;
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+}
+#nav a.nav-link-active {
+  background-color: #212529;
+  color: #fff;
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+#footer .container {
+  padding: 1em 0;
+}
+#footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.font-125 {
+  font-size: 125%;
+}
+.tag-btn {
+  margin-bottom: 0.3em;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  background-color: transparent;
+  border-radius: 0;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+img,
+iframe,
+embed,
+video,
+audio {
+  max-width: 100%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
+</style>
+</head>
+  <body class="d-flex flex-column h-100">
+    <div id="nav-border" class="container">
+  <nav id="nav" class="nav justify-content-center">
+  
+  
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/"><i data-feather="home"></i> Inicio</a>
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/about/"><i data-feather="smile"></i> Sobre mí</a>
+  
+    
+    
+      
+      
+      
+      
+      
+       
+        
+        
+      
+    
+    
+    <a class="nav-link nav-link-active" href="/post/"><i data-feather="edit"></i> Blog</a>
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/tags/"><i data-feather="tag"></i> Tags</a>
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/projects/"><i data-feather="codepen"></i> Proyectos</a>
+  
+  </nav>
+</div>
+
+    <div class="container">
+      <main id="main">
+        
+
+<h1>Visualización con highcharter: Brecha de género en carreras tecnológicas</h1>
+
+
+<i data-feather="calendar"></i> <time datetime="2020-05-13">May 13, 2020</time>
+
+  <br>
+  <i data-feather="tag"></i>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/highcharter">highcharter</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/chile">chile</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/tidyverse">tidyverse</a>
+  
+
+<br><br>
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/pymjs/pym.v1.js"></script>
+<script src="/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
+
+
+<p>Para el segundo día del desafío #30díasdegráficos propuesto por la comunidad <a href="https://twitter.com/R4DS_es/">R4DS_es</a>, la consigna es realizar gráficos de líneas.</p>
+<p>Esta vez, me propuse trabajar con el paquete <code>highcharter</code> y tuve la oportunidad de probar las maravillas del argumento <code>names_pattern</code> de la función <code>tidyr::pivot_longer()</code> el cual facilita mucho el trabajo con columnas en donde el nombre especifica dos variables.</p>
+<div id="sobre-los-datos" class="section level2">
+<h2>Sobre los datos</h2>
+<p>Los datos los obtuve desde la web del <a href="http://geoine-ine-chile.opendata.arcgis.com/datasets/49ab475e009a4cfbaf1a354af6016d73_29?selectedAttribute=BRECHA_2008_PROFESIONAL">INE</a>. El dataset contiene las estadísticas de brecha de género entre personas tituladas en carreras asociadas a tecnología para cada una de las regiones de Chile. Brechas negativas dan cuenta de una menor participación femenina.</p>
+<p>El código para procesar los datos fue el siguiente:</p>
+<pre class="r"><code>library(tidyverse)
+
+data &lt;- read_csv(&quot;https://raw.githubusercontent.com/sporella/nightingale/master/data/genero_ine.csv&quot;)
+data_pivot &lt;- data %&gt;% 
+  pivot_longer(cols = starts_with(&quot;BRECHA&quot;), 
+               names_to = c(&quot;year&quot;, &quot;tipo&quot;), 
+               names_pattern = &quot;BRECHA_(.*)_(.*)&quot;)</code></pre>
+</div>
+<div id="visualización-con-highcharter" class="section level2">
+<h2>Visualización con highcharter</h2>
+<p>Decidí realizar la visualización con el paquete highcharter ya que permite realizar gráficos dinámicos, los cuales son muy informativos cuando se tienen varias series de datos ya que se pueden visualizar una a la vez o todas juntas o seleccionando algunas.</p>
+<pre class="r"><code>library(highcharter)
+
+h1&lt;- hchart(data_pivot %&gt;%  filter(tipo ==&quot;PROFESIONAL&quot;), &quot;line&quot;,
+       hcaes(x = year, y = value, group = NOM_REGION)) %&gt;% 
+       hc_title(text=&quot;Brecha de género entre personas tituladas en carreras del área de tecnología&quot;) %&gt;% 
+  hc_subtitle(text=&quot;Carreras profesionales&quot;) %&gt;% 
+  hc_credits(enabled = TRUE, text = &quot;@sporella&quot;, href = &quot;https://sporella.netlify.app/&quot;) %&gt;% 
+  hc_yAxis(title= list(text = &quot;Brecha&quot;)) %&gt;% 
+  hc_xAxis(title= list(text = &quot;&quot;)) %&gt;% 
+  hc_add_theme(hc_theme_darkunica(credits = list(
+    style = list(
+      size = 3,
+      color = &quot;white&quot;
+    ))))</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/post/2020-05-13-visualización-con-highcharter-brecha-de-género-en-carreras-tecnológicas_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p><br></br>
+Si bien parece existir una tendencia a la disminución de las brechas, aún queda mucho camino por recorrer para acercarse a cero.</p>
+<div id="htmlwidget-2" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/post/2020-05-13-visualización-con-highcharter-brecha-de-género-en-carreras-tecnológicas_files/figure-html//widgets/widget_unnamed-chunk-5.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p><br></br>
+Como se puede ver, tanto en carreras profesionales como técnicas la brecha de género es muy amplia. La región de Aysén es la que presenta más variabilidad, siendo la única que registró un valor positivo al inicio de la serie para las carreras técnicas.</p>
+</div>
+<div id="código" class="section level2">
+<h2>Código</h2>
+<p>El código completo se encuentra en mi <a href="https://github.com/sporella/nightingale">Github</a></p>
+</div>
+
+
+
+      </main>
+    </div>
+    
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>
+  </div>
+</footer>
+
+    <script src="/js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script>
+
+
+<script src="/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    
+
+
+
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>
