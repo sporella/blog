@@ -7,7 +7,6 @@ categories:
 tags:
   - ggplot2
   - música
-  - R
 slug: música-datos-y-gráficos
 ---
 
