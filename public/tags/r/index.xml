@@ -6,10 +6,32 @@
     <description>Recent content in R on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
+      <link>/2020-05-13-visualizaci%C3%B3n-con-highcharter-brecha-de-g%C3%A9nero-en-carreras-tecnol%C3%B3gicas/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020-05-13-visualizaci%C3%B3n-con-highcharter-brecha-de-g%C3%A9nero-en-carreras-tecnol%C3%B3gicas/</guid>
+      <description>Para el segundo día del desafío #30díasdegráficos propuesto por la comunidad R4DS_es, la consigna es realizar gráficos de líneas.
+Esta vez, me propuse trabajar con el paquete highcharter y tuve la oportunidad de probar las maravillas del argumento names_pattern de la función tidyr::pivot_longer() el cual facilita mucho el trabajo con columnas en donde el nombre especifica dos variables.
+Sobre los datosLos datos los obtuve desde la web del INE.</description>
+    </item>
+    
+    <item>
+      <title>Música, datos y gráficos</title>
+      <link>/2020-05-12-m%C3%BAsica-datos-y-gr%C3%A1ficos/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020-05-12-m%C3%BAsica-datos-y-gr%C3%A1ficos/</guid>
+      <description>Empieza el desafío #30díasdegráficos propuesto por la comunidad R4DS_es, comunidad hispanohablante de R para recordar a Florence Nightingale y aprender sobre visualización de datos.
+En este primer día, la consigna fue crear un gráfico de barras/columna.
+Hace tiempo que tenía ganas de trabjar con la API de Spotify y decidí visualizar las estadísticas que genera Spotify para caracterizar las canciones, esto utilizando el paquete Rspotify y mi álbum favorito durante esta cuarentena: HVMAN.</description>
+    </item>
     
     <item>
       <title>¡Hola blogdown!</title>
