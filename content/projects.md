@@ -18,5 +18,6 @@ title: Proyectos
  
 ## Comunidad
 
-- Aportes desafío [#30díasdegráficos](https://github.com/sporella/nightingale) 
+- Aportes desafío [#30díasdegráficos](https://github.com/sporella/nightingale)
+
 ------
