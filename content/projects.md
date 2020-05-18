@@ -16,4 +16,7 @@ title: Proyectos
 
 - satRDay Santiago 2018 - [Evaluando tendencias recientes en índices agroclimáticos utilizando imágenes satelitales MODIS](https://github.com/sporella/satRdaysantiago2018/blob/master/StephanieOrellana_satRday.pdf)
  
+## Comunidad
+
+- Aportes desafío [#30díasdegráficos](https://github.com/sporella/nightingale) 
 ------
