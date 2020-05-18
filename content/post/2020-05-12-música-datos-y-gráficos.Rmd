@@ -5,9 +5,9 @@ date: '2020-05-12'
 categories:
   - R
 tags:
-  - R
   - ggplot2
   - música
+  - R
 slug: música-datos-y-gráficos
 ---
 

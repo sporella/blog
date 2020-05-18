@@ -6,7 +6,6 @@ slug: highcharter-brechas
 categories:
   - R
 tags:
-  - R
   - highcharter
   - chile
   - tidyverse
