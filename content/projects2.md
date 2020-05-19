@@ -20,7 +20,6 @@ title: "Proyectos"
 
 - Aportes desafío [#30díasdegráficos](https://github.com/sporella/nightingale)
 
-mmmm
 
 ------
 
