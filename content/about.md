@@ -15,4 +15,4 @@ Fuera del trabajo canto en un coro, escribo algunos cuentos y cocino los fines d
 
 Acá hablaré fundamentalmente de R, los proyectos en los que participo y las cosas nuevas que voy aprendiendo. También aparecerá algo de Python :) y otras cosas que me llamen la atención.
 
-Escribié en español y espero que algo de acá resulte de utilidad/inspiración cuando los recursos estén todos en inglés y alguien de latinoamérica esté golpeándose contra un muro sin encontrar las herramientas o soluciones.
+Escribiré en español y espero que algo de acá resulte de utilidad/inspiración cuando los recursos estén todos en inglés y alguien de latinoamérica esté golpeándose contra un muro sin encontrar las herramientas o soluciones.
