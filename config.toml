@@ -42,7 +42,7 @@ pygmentsStyle = "paraiso-dark"
   [[menu.nav]]
     name = "Proyectos"
     pre = "codepen"
-    url = "/projects/"
+    url = "/projects2/"
     weight = 5
 
 
