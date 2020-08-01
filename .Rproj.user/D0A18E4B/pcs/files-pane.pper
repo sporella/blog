@@ -1,9 +1,9 @@
 {
-    "path" : "C:/Users/PEZ/Desktop/git/blogsite2/public/2020-05-12-música-datos-y-gráficos",
-    "sortOrder" : [
+    "path": "C:/Users/PEZ/Desktop/git/blogsite2/content",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
