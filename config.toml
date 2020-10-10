@@ -17,6 +17,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
   post = "/:filename/"
+  baseURL = "https://sporella.netlify.app"
 
 # See https://feathericons.com/
 # The value of pre is the icon name
