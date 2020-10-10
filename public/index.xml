@@ -6,10 +6,19 @@
     <description>Recent content on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>prueba</title>
+      <link>/posts/prueba/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/prueba/</guid>
+      <description>esta es una prueba</description>
+    </item>
     
     <item>
       <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
@@ -49,10 +58,11 @@ Así que me animé a hacer una web personal en donde ir escribiendo sobre todas 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects2/</guid>
-      <description>Cursos y talleres   R-Ladies Chile - Taller sobre datos espaciales (9 de mayo 2020)
+      <description>Cursos y talleres   R-Ladies Chile - Club de lectura Happy Git with R, sesión 6 (29 julio 2020)
+  R-Ladies La Paz - Taller sobre datos espaciales (25 de junio 2020)
+  R-Ladies Chile - Taller sobre datos espaciales (9 de mayo 2020)
   Curso &amp;ldquo;Ciencia de datos en Recursos Naturales&amp;rdquo; - Facultad de Agronomía e Ing. Forestal UC (segundo semestre 2019)
-  Presentaciones en Conferencias   Latin R 2019 - Utilizar R como un Sistema de Información Geográfica y hacer análisis reproducible
-  satRDay Santiago 2018 - Evaluando tendencias recientes en índices agroclimáticos utilizando imágenes satelitales MODIS</description>
+  Presentaciones en Conferencias   Latin R 2019 - Utilizar R como un Sistema de Información Geográfica y hacer análisis reproducible</description>
     </item>
     
     <item>

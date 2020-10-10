@@ -55,3 +55,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   dateFormat = "Jan 2, 2006"
   footerText = "Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)"
   hideFooter = false
+[Params.social.share]
+  facebook = true
+  linkedin = true
+  twitter = true
+  whatsapp = false
+  email = false

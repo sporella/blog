@@ -1,6 +1,13 @@
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
+{{ partial "date-and-tags.html" . }}
+<br><br>
 {{ .Content }}
 
+<br><br>
+<hr>
+
+Compartir en: 
+{{ partial "socialshare.html" . }}
 {{ end }}

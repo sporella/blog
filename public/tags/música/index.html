@@ -11,7 +11,7 @@
   <title>música | Stephanie Orellana</title>
   <style>
 .container {
-  max-width: 1200px;
+  max-width: 700px;
 }
 #nav a {
   font-weight: bold;
@@ -76,6 +76,113 @@ audio {
 .card-img-bottom {
   width: initial;
 }
+
+.social-share {
+	position: relative;
+	top: -0.5em;
+}
+ 
+.social-share ul {
+	margin: 0;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-icons li {
+	padding: 0 !important;
+	padding-bottom: 10px !important;
+}
+ 
+.social-share .share-btn {
+	padding: 0.25em;
+	width: 3em;
+}
+ 
+.social-share-nav .share-btn h3{
+	color: #ffffff;
+}
+
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+
+ul.share-icons li > *:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+	display: none;
+}
+ 
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.share-btn:hover {
+	color: #343a40 !important;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+.share-btn .widget-social__link-icon {
+	margin: 0;
+}
+ 
+.share-btn.twitter     { background: #343a40; }
+.share-btn.google-plus { background: #343a40; }
+.share-btn.facebook    { background: #343a40; }
+.share-btn.linkedin    { background: #343a40; }
+.share-btn.stumbleupon { background: #343a40; }
+.share-btn.pinterest   { background: #343a40; }
+.share-btn.reddit      { background: #343a40; }
+.share-btn.email       { background: #343a40; }
+.share-btn.whatsapp    { background: #343a40; }
+
+
+.share-btn.twitter:hover     { background: #ffffff; }
+.share-btn.google-plus:hover { background: #ffffff; }
+.share-btn.facebook:hover    { background: #ffffff; }
+.share-btn.linkedin:hover    { background: #ffffff; }
+.share-btn.stumbleupon:hover { background: #ffffff; }
+.share-btn.pinterest:hover   { background: #ffffff; }
+.share-btn.reddit:hover      { background: #ffffff; }
+.share-btn.email:hover       { background: #ffffff; }
 </style>
 </head>
   <body class="d-flex flex-column h-100">
@@ -85,67 +192,30 @@ audio {
   
   
     
-    
-      
-      
-      
-      
-      
-        
       
     
     
     <a class="nav-link " href="/"><i data-feather="home"></i> Inicio</a>
   
     
-    
-      
-      
-      
-      
-      
-        
       
     
     
     <a class="nav-link " href="/about/"><i data-feather="smile"></i> Sobre mí</a>
   
     
-    
-      
-      
-      
-      
-      
-        
       
     
     
     <a class="nav-link " href="/post/"><i data-feather="edit"></i> Blog</a>
   
     
-    
-      
-      
-      
-      
-      
-       
-        
-        
       
     
     
-    <a class="nav-link nav-link-active" href="/tags/"><i data-feather="tag"></i> Tags</a>
+    <a class="nav-link " href="/tags/"><i data-feather="tag"></i> Tags</a>
   
     
-    
-      
-      
-      
-      
-      
-        
       
     
     
@@ -190,7 +260,7 @@ audio {
     
 <footer id="footer" class="mt-auto text-center text-muted">
   <div class="container">
-    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>
+    
   </div>
 </footer>
 
@@ -199,9 +269,6 @@ audio {
   feather.replace()
 </script>
 
-
-<script src="/js/jquery-3.3.1.slim.min.js"></script>
-<script src="/js/bootstrap.bundle.min.js"></script>
 
     
 

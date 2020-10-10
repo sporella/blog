@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>prueba</title>
+      <link>/posts/prueba/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/prueba/</guid>
+      <description>esta es una prueba</description>
+    </item>
     
     <item>
       <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
