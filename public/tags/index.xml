@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LatinR</title>
+      <link>/tags/latinr/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/latinr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chile</title>
@@ -26,15 +53,6 @@
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/highcharter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
@@ -62,15 +80,6 @@
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/m%C3%BAsica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
