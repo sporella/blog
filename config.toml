@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   tag = "tags"
 
 [permalinks]
-  post = "/:filename/"
+  post = "/:year/:month/:day/:slug/"
 
 # See https://feathericons.com/
 # The value of pre is the icon name

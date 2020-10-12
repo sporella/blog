@@ -1,16 +1,252 @@
----
-title: Música, datos y gráficos
-author: Stephanie Orellana
-date: '2020-05-12'
-categories:
-  - R
-tags:
-  - ggplot2
-  - música
-  - R
-slug: musica-datos-y-graficos
-socialshare: true
----
+<!doctype html>
+
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="generator" content="Hugo 0.69.2" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  
+  
+  <title>Música, datos y gráficos | Stephanie Orellana</title>
+  <style>
+.container {
+  max-width: 700px;
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+}
+#nav a.nav-link-active {
+  background-color: #212529;
+  color: #fff;
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+#footer .container {
+  padding: 1em 0;
+}
+#footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.font-125 {
+  font-size: 125%;
+}
+.tag-btn {
+  margin-bottom: 0.3em;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  background-color: transparent;
+  border-radius: 0;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+img,
+iframe,
+embed,
+video,
+audio {
+  max-width: 100%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
+
+.social-share {
+	position: relative;
+	top: -0.5em;
+}
+ 
+.social-share ul {
+	margin: 0;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-icons li {
+	padding: 0 !important;
+	padding-bottom: 10px !important;
+}
+ 
+.social-share .share-btn {
+	padding: 0.25em;
+	width: 3em;
+}
+ 
+.social-share-nav .share-btn h3{
+	color: #ffffff;
+}
+
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+
+ul.share-icons li > *:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+	display: none;
+}
+ 
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.share-btn:hover {
+	color: #343a40 !important;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+.share-btn .widget-social__link-icon {
+	margin: 0;
+}
+ 
+.share-btn.twitter     { background: #343a40; }
+.share-btn.google-plus { background: #343a40; }
+.share-btn.facebook    { background: #343a40; }
+.share-btn.linkedin    { background: #343a40; }
+.share-btn.stumbleupon { background: #343a40; }
+.share-btn.pinterest   { background: #343a40; }
+.share-btn.reddit      { background: #343a40; }
+.share-btn.email       { background: #343a40; }
+.share-btn.whatsapp    { background: #343a40; }
+
+
+.share-btn.twitter:hover     { background: #ffffff; }
+.share-btn.google-plus:hover { background: #ffffff; }
+.share-btn.facebook:hover    { background: #ffffff; }
+.share-btn.linkedin:hover    { background: #ffffff; }
+.share-btn.stumbleupon:hover { background: #ffffff; }
+.share-btn.pinterest:hover   { background: #ffffff; }
+.share-btn.reddit:hover      { background: #ffffff; }
+.share-btn.email:hover       { background: #ffffff; }
+</style>
+</head>
+  <body class="d-flex flex-column h-100">
+    <div id="nav-border" class="container">
+  <nav id="nav" class="nav justify-content-center">
+  
+  
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/"><i data-feather="home"></i> Inicio</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/about/"><i data-feather="smile"></i> Sobre mí</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/post/"><i data-feather="edit"></i> Blog</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/tags/"><i data-feather="tag"></i> Tags</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/projects2/"><i data-feather="codepen"></i> Proyectos</a>
+  
+  </nav>
+</div>
+
+    <div class="container">
+      <main id="main">
+        
+
+<h1>Música, datos y gráficos</h1>
+
+
+<i data-feather="calendar"></i> <time datetime="2020-05-12">May 12, 2020</time>
+
+  <br>
+  <i data-feather="tag"></i>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/ggplot2">ggplot2</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/m%C3%BAsica">música</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/r">R</a>
+  
+
+<br><br>
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
@@ -75,3 +311,86 @@ hn &lt;- getAlbum(&quot;1iSsdlURK7CGUVlcz4M5Li&quot;, token = my_oauth) %&gt;%
 <h2>Código</h2>
 <p>El código para extraer datos y hacer los gráficos está en mi <a href="https://github.com/sporella/nightingale/">Github</a></p>
 </div>
+
+
+<br><br>
+<hr>
+
+Compartir en: 
+
+  
+  
+  
+
+  <section class="social-share">
+    <ul class="share-icons">
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?&amp;url=https%3a%2f%2fsporella.netlify.app%2f2020%2f05%2f12%2fm%25C3%25BAsica-datos-y-gr%25C3%25A1ficos%2f&amp;text=M%c3%basica%2c%20datos%20y%20gr%c3%a1ficos" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
+          <i data-feather="twitter"></i>
+          <p>Twitter</p>
+          </a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsporella.netlify.app%2f2020%2f05%2f12%2fm%25C3%25BAsica-datos-y-gr%25C3%25A1ficos%2f" target="_blank" rel="noopener" aria-label="Share on Facebook" class="share-btn facebook">
+          <i data-feather="facebook"></i>
+          <p>Facebook</p>
+          </a>
+      </li>
+      
+
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsporella.netlify.app%2f2020%2f05%2f12%2fm%25C3%25BAsica-datos-y-gr%25C3%25A1ficos%2f&amp;source=https%3a%2f%2fsporella.netlify.app&amp;title=M%c3%basica%2c%20datos%20y%20gr%c3%a1ficos&amp;summary=M%c3%basica%2c%20datos%20y%20gr%c3%a1ficos" target="_blank" rel="noopener" aria-label="Share on LinkedIn" class="share-btn linkedin">
+          <i data-feather="linkedin"></i>
+            <p>LinkedIn</p>
+          </a>
+      </li>
+      
+      
+      
+<script src="https://utteranc.es/client.js"
+        repo="sporella/blog"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+      </main>
+    </div>
+    
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    
+  </div>
+</footer>
+
+    <script src="/js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script>
+
+
+    
+
+
+
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-180361884-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>

@@ -8,7 +8,7 @@ tags:
   - ggplot2
   - música
   - R
-slug: música-datos-y-gráficos
+slug: musica-datos-y-graficos
 socialshare: true
 ---
 
