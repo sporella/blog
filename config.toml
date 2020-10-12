@@ -2,7 +2,7 @@ baseURL ="/"
 languageCode = "en-us"
 title = "Stephanie Orellana"
 theme = "vanilla-bootstrap-hugo-theme"
-googleAnalytics = "UA-123456789-1"
+googleAnalytics = "UA-180361884-1"
 
 #Uncomment below to enable syntax highlighting
 pygmentsCodefences = true
@@ -55,6 +55,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   dateFormat = "Jan 2, 2006"
   footerText = "Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)"
   hideFooter = false
+  
 [Params.social.share]
   facebook = true
   linkedin = true
