@@ -22,6 +22,14 @@ Pero en el taller de Maëlle aprendí que es muy positivo tener interacción con
 
 Así que comencé a averiguar cómo poner enlaces para compartir en redes sociales y cómo poner una sección de comentarios en las entradas del blog.
 
+## Antes de empezar
+
+Es muy importante nunca modificar la carpeta del tema directamente, esto por motivos de reproducibilidad, ya que cualquier cambio que haga el creador del tema no podremos trazarlo de buena forma si es que nosotras hicimos algún cambio. 
+
+¿Pero cómo podemos cambiar el tema entonces?
+
+Podemos hacerlo generando una carpeta en el directorio raíz llamada `layouts`. Lo que se encuentre dentro de esta carpeta sobreescribirá las opciones que trae el tema por defecto pero sin modificarlo directamente. Puedes encontrar más información [aquí](https://bookdown.org/yihui/blogdown/custom-layouts.html).
+
 ## Enlaces para compartir en redes sociales
 
 Es importante averiguar primero si tu tema de Hugo ya trae estas opciones, el que yo uso no trae estas utilidades, así que tuve que ingresarlas de forma manual.
@@ -32,7 +40,7 @@ También pueden encontrar un código que reúne los pasos 1 y 2 en el blog [hugo
 
 _Pasos:_
 
-1) **Agregar código html para botones:** este código determina las características de los botones y debe ponerse dentro de la carpeta `themes/mi_tema/layouts/partials`. Yo nombré este archivo como `socialshare.html` y generé botones para Twitter, Facebook y LinkedIn con [Feather Icons](https://feathericons.com/) que vienen por defecto con mi tema de Hugo.
+1) **Agregar código html para botones:** este código determina las características de los botones y debe ponerse dentro de la carpeta `~/layouts/partials`. Yo nombré este archivo como `socialshare.html` y generé botones para Twitter, Facebook y LinkedIn con [Feather Icons](https://feathericons.com/) que vienen por defecto con mi tema de Hugo.
 
 _Si no tienes estos íconos puedes seguir los pasos del tutorial de [codingnconcepts.com](https://codingnconcepts.com/hugo/social-icons-hugo/) en donde ingresan los íconos como svg._
 
@@ -250,7 +258,7 @@ ul.share-icons li > * .label {
 </style>
 ```
 
-3) **Modificar archivo `single.html`:** este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, se encuentra dentro de la carpeta `themes/mi_tema/layouts/post` e indica que pondrá el título, luego la fecha y las etiquetas, luego el contenido. Agregué al final: "Compartir en:" y el código `{{ partial "socialshare.html" . }}`
+3) **Modificar archivo `single.html`:** este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de `layouts/post` e indica que pondrá el título, luego la fecha y las etiquetas, luego el contenido. Agregué al final: "Compartir en:" y el código `{{ partial "socialshare.html" . }}`
 
 _No confundir el archivo `post/single.html` con el que se encuentra dentro de la carpeta `_default`, ya que este determina la estructura de las páginas que no son entradas del blog._
 
@@ -325,7 +333,7 @@ _Pasos:_
 
 2) **Instalar Utterances** desde [https://utteranc.es/#configuration](https://utteranc.es/#configuration)
 
-4) **Agregar código html para cuadro de comentarios:** este código lo copié desde la configuración de Utterances y debe ponerse dentro de la carpeta `themes/mi_tema/layouts/partials`. Yo nombré este archivo como `comments.html`
+4) **Agregar código html para cuadro de comentarios:** este código lo copié desde la configuración de Utterances y debe ponerse dentro de la carpeta `~/layouts/partials`. Yo nombré este archivo como `comments.html`
 
 ```{r, engine = 'bash', eval = FALSE}
 <script src="https://utteranc.es/client.js"
@@ -339,7 +347,7 @@ _Pasos:_
 ```
 
 
-3) **Modificar archivo `single.html`:** es el mismo que modificamos en el paso 3 de la sección anterior, el que se encuentra en `themes/mi_tema/layouts/post`. Debe quedar así:
+3) **Modificar archivo `single.html`:** es el mismo que modificamos en el paso 3 de la sección anterior, el que se encuentra en `~/layouts/post`. Debe quedar así:
 
 
 ```{r, engine = 'bash', eval = FALSE}
@@ -367,7 +375,7 @@ Compartir en:
 
 - Dejar un comentario de prueba.
 
-# Comenatrios finales
+# Comentarios finales
 
 Después de trabajar en estas mejoras, mi blog parece mucho más funcional y estoy muy entusiasmada para ver cómo funciona y recibir las primeras interacciones :)
 
