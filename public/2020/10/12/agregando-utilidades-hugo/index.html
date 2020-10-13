@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="generator" content="Hugo 0.69.2" />
   <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="icon" href="/img/ufo.png" type="image/x-icon">
   
   
   <title>Agregando utilidades al blog | Stephanie Orellana</title>
@@ -257,6 +256,12 @@ ul.share-icons li > * .label {
 <p>Cuando comencé con mi blog en 2019, lo pensé como una especie de portafolio en donde ir registrando los talleres y eventos en los que participo y no tanto como para ir escribiendo entradas regulares. Con ese objetivo en mente, decidí usar un <a href="https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/">tema de Hugo sencillo</a> y nunca se me pasó por la mente tener, por ejemplo, un sistema de comentarios en las entradas o enlaces para compartir en redes sociales.</p>
 <p>Pero en el taller de Maëlle aprendí que es muy positivo tener interacción con los lectores y poder promocionar las entradas para que las personas puedan saber que esos contenidos existen y que puedan encontrarlos en la web.</p>
 <p>Así que comencé a averiguar cómo poner enlaces para compartir en redes sociales y cómo poner una sección de comentarios en las entradas del blog.</p>
+<div id="antes-de-empezar" class="section level2">
+<h2>Antes de empezar</h2>
+<p>Es muy importante nunca modificar la carpeta del tema directamente, esto por motivos de reproducibilidad, ya que cualquier cambio que haga el creador del tema no podremos trazarlo de buena forma si es que nosotras hicimos algún cambio.</p>
+<p>¿Pero cómo podemos cambiar el tema entonces?</p>
+<p>Podemos hacerlo generando una carpeta en el directorio raíz llamada <code>layouts</code>. Lo que se encuentre dentro de esta carpeta sobreescribirá las opciones que trae el tema por defecto pero sin modificarlo directamente. Puedes encontrar más información <a href="https://bookdown.org/yihui/blogdown/custom-layouts.html">aquí</a>.</p>
+</div>
 <div id="enlaces-para-compartir-en-redes-sociales" class="section level2">
 <h2>Enlaces para compartir en redes sociales</h2>
 <p>Es importante averiguar primero si tu tema de Hugo ya trae estas opciones, el que yo uso no trae estas utilidades, así que tuve que ingresarlas de forma manual.</p>
@@ -264,7 +269,7 @@ ul.share-icons li > * .label {
 <p>También pueden encontrar un código que reúne los pasos 1 y 2 en el blog <a href="http://hugocodex.org/add-ons/share-buttons/">hugocodex.org</a>.</p>
 <p><em>Pasos:</em></p>
 <ol style="list-style-type: decimal">
-<li><strong>Agregar código html para botones:</strong> este código determina las características de los botones y debe ponerse dentro de la carpeta <code>themes/mi_tema/layouts/partials</code>. Yo nombré este archivo como <code>socialshare.html</code> y generé botones para Twitter, Facebook y LinkedIn con <a href="https://feathericons.com/">Feather Icons</a> que vienen por defecto con mi tema de Hugo.</li>
+<li><strong>Agregar código html para botones:</strong> este código determina las características de los botones y debe ponerse dentro de la carpeta <code>~/layouts/partials</code>. Yo nombré este archivo como <code>socialshare.html</code> y generé botones para Twitter, Facebook y LinkedIn con <a href="https://feathericons.com/">Feather Icons</a> que vienen por defecto con mi tema de Hugo.</li>
 </ol>
 <p><em>Si no tienes estos íconos puedes seguir los pasos del tutorial de <a href="https://codingnconcepts.com/hugo/social-icons-hugo/">codingnconcepts.com</a> en donde ingresan los íconos como svg.</em></p>
 <p>Debes tener en cuenta que en la línea 4, ingresé la ruta de inicio de mi página.</p>
@@ -476,7 +481,7 @@ ul.share-icons li &gt; * .label {
     
 &lt;/style&gt;</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li><strong>Modificar archivo <code>single.html</code>:</strong> este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, se encuentra dentro de la carpeta <code>themes/mi_tema/layouts/post</code> e indica que pondrá el título, luego la fecha y las etiquetas, luego el contenido. Agregué al final: “Compartir en:” y el código <code>{{ partial "socialshare.html" . }}</code></li>
+<li><strong>Modificar archivo <code>single.html</code>:</strong> este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de <code>layouts/post</code> e indica que pondrá el título, luego la fecha y las etiquetas, luego el contenido. Agregué al final: “Compartir en:” y el código <code>{{ partial "socialshare.html" . }}</code></li>
 </ol>
 <p><em>No confundir el archivo <code>post/single.html</code> con el que se encuentra dentro de la carpeta <code>_default</code>, ya que este determina la estructura de las páginas que no son entradas del blog.</em></p>
 <pre class="bash"><code>{{ define &quot;main&quot; }}
@@ -536,7 +541,7 @@ socialshare: true
 <ol style="list-style-type: decimal">
 <li><p><strong>Subir repositorio a GitHub</strong></p></li>
 <li><p><strong>Instalar Utterances</strong> desde <a href="https://utteranc.es/#configuration">https://utteranc.es/#configuration</a></p></li>
-<li><p><strong>Agregar código html para cuadro de comentarios:</strong> este código lo copié desde la configuración de Utterances y debe ponerse dentro de la carpeta <code>themes/mi_tema/layouts/partials</code>. Yo nombré este archivo como <code>comments.html</code></p></li>
+<li><p><strong>Agregar código html para cuadro de comentarios:</strong> este código lo copié desde la configuración de Utterances y debe ponerse dentro de la carpeta <code>~/layouts/partials</code>. Yo nombré este archivo como <code>comments.html</code></p></li>
 </ol>
 <pre class="bash"><code>&lt;script src=&quot;https://utteranc.es/client.js&quot;
         repo=&quot;sporella/blog&quot;
@@ -547,7 +552,7 @@ socialshare: true
         async&gt;
 &lt;/script&gt;</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li><strong>Modificar archivo <code>single.html</code>:</strong> es el mismo que modificamos en el paso 3 de la sección anterior, el que se encuentra en <code>themes/mi_tema/layouts/post</code>. Debe quedar así:</li>
+<li><strong>Modificar archivo <code>single.html</code>:</strong> es el mismo que modificamos en el paso 3 de la sección anterior, el que se encuentra en <code>~/layouts/post</code>. Debe quedar así:</li>
 </ol>
 <pre class="bash"><code>{{ define &quot;main&quot; }}
 
@@ -570,8 +575,8 @@ Compartir en:
 <li><p>Dejar un comentario de prueba.</p></li>
 </ul>
 </div>
-<div id="comenatrios-finales" class="section level1">
-<h1>Comenatrios finales</h1>
+<div id="comentarios-finales" class="section level1">
+<h1>Comentarios finales</h1>
 <p>Después de trabajar en estas mejoras, mi blog parece mucho más funcional y estoy muy entusiasmada para ver cómo funciona y recibir las primeras interacciones :)</p>
 <p>Recomiendo mucho el tutorial de Maëlle y también el resto de las actividades que se realizaron en LatinR y que están en su canal de <a href="https://www.youtube.com/c/LatinR">Youtube</a>, el cual quedó como un muy buen repositorio de recursos en español, portugués e inglés para aprender sobre R.</p>
 </div>
@@ -591,7 +596,7 @@ Compartir en:
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?&amp;url=https%3a%2f%2fsporella.netlify.app%2f2020%2f10%2f12%2fagregando-utilidades-hugo%2f&amp;text=Agregando%20utilidades%20al%20blog" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
+        <a href="https://twitter.com/intent/tweet?&amp;url=https%3a%2f%2fsporella.netlify.app%2f2020%2f10%2f12%2fagregando-utilidades-hugo%2f&amp;text=Agregando%20utilidades%20al%20blog%20%40sporella" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
           <i data-feather="twitter"></i>
           <p>Twitter</p>
           </a>
