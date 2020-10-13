@@ -20,11 +20,17 @@ socialshare: true
 <p>Cuando comencé con mi blog en 2019, lo pensé como una especie de portafolio en donde ir registrando los talleres y eventos en los que participo y no tanto como para ir escribiendo entradas regulares. Con ese objetivo en mente, decidí usar un <a href="https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/">tema de Hugo sencillo</a> y nunca se me pasó por la mente tener, por ejemplo, un sistema de comentarios en las entradas o enlaces para compartir en redes sociales.</p>
 <p>Pero en el taller de Maëlle aprendí que es muy positivo tener interacción con los lectores y poder promocionar las entradas para que las personas puedan saber que esos contenidos existen y que puedan encontrarlos en la web.</p>
 <p>Así que comencé a averiguar cómo poner enlaces para compartir en redes sociales y cómo poner una sección de comentarios en las entradas del blog.</p>
+<p>¡Este es el resultado final!</p>
+<div class="figure">
+<img src="/img/redes_sociales.PNG" width="700" alt="" />
+<p class="caption">Íconos para compartir en Twitter, Facebook y LinkedIn, además del cuadro para dejar comentarios con Utternances</p>
+</div>
 <div id="antes-de-empezar" class="section level2">
 <h2>Antes de empezar</h2>
-<p>Es muy importante nunca modificar la carpeta del tema directamente, esto por motivos de reproducibilidad, ya que cualquier cambio que haga el creador del tema no podremos trazarlo de buena forma si es que nosotras hicimos algún cambio.</p>
-<p>¿Pero cómo podemos cambiar el tema entonces?</p>
-<p>Podemos hacerlo generando una carpeta en el directorio raíz llamada <code>layouts</code>. Lo que se encuentre dentro de esta carpeta sobreescribirá las opciones que trae el tema por defecto pero sin modificarlo directamente. Puedes encontrar más información <a href="https://bookdown.org/yihui/blogdown/custom-layouts.html">aquí</a>.</p>
+<p>Es muy importante <strong>nunca modificar la carpeta del tema directamente</strong>, esto por motivos de reproducibilidad, ya que cualquier cambio que haga el creador del tema no podremos trazarlo de buena forma si es que nosotras hicimos algún cambio dentro de la carpeta original.</p>
+<p>Pero, ¿cómo podemos cambiar el tema entonces?</p>
+<p>Debemos hacerlo generando una carpeta en el directorio raíz llamada <code>layouts</code>. Lo que se encuentre dentro de esta carpeta sobreescribirá las opciones que trae el tema por defecto pero sin modificarlo directamente dentro de la carpeta <code>mi_tema/layouts</code> que es en donde se encuentran los archivos que determinan la estructura de las páginas del blog.</p>
+<p>Puedes encontrar más información <a href="https://bookdown.org/yihui/blogdown/custom-layouts.html">aquí</a>.</p>
 </div>
 <div id="enlaces-para-compartir-en-redes-sociales" class="section level2">
 <h2>Enlaces para compartir en redes sociales</h2>
@@ -36,7 +42,7 @@ socialshare: true
 <li><strong>Agregar código html para botones:</strong> este código determina las características de los botones y debe ponerse dentro de la carpeta <code>~/layouts/partials</code>. Yo nombré este archivo como <code>socialshare.html</code> y generé botones para Twitter, Facebook y LinkedIn con <a href="https://feathericons.com/">Feather Icons</a> que vienen por defecto con mi tema de Hugo.</li>
 </ol>
 <p><em>Si no tienes estos íconos puedes seguir los pasos del tutorial de <a href="https://codingnconcepts.com/hugo/social-icons-hugo/">codingnconcepts.com</a> en donde ingresan los íconos como svg.</em></p>
-<p>Debes tener en cuenta que en la línea 4, ingresé la ruta de inicio de mi página.</p>
+<p>Debes tener en cuenta que en la línea 4 ingresé la ruta de inicio de mi página.</p>
 <pre class="bash"><code>&lt;!-- Social Share Button HTML --&gt;
 {{- if .Param &quot;socialshare&quot; }}
   {{ $title := .Title }}
@@ -48,12 +54,12 @@ socialshare: true
       &lt;!-- Twitter --&gt;
       {{ if .Site.Params.social.share.twitter }}
       &lt;li&gt;
-        &lt;a href=&quot;https://twitter.com/intent/tweet?&amp;amp;url={{ $url }}{{.Permalink}}&amp;amp;text={{ .Title }}&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;Share on Twitter&quot; class=&quot;share-btn twitter&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/intent/tweet?&amp;amp;url={{ $url }}{{.Permalink}}&amp;amp;text={{ .Title }}%20%40sporella&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;Share on Twitter&quot; class=&quot;share-btn twitter&quot;&gt;
           &lt;i data-feather=&quot;twitter&quot;&gt;&lt;/i&gt;
           &lt;p&gt;Twitter&lt;/p&gt;
           &lt;/a&gt;
       &lt;/li&gt;
-      
+      {{ end }}
       &lt;!-- Facebook --&gt;
       {{ if .Site.Params.social.share.facebook }}
       &lt;li&gt;
@@ -74,12 +80,12 @@ socialshare: true
       &lt;/li&gt;
       {{ end }}
       
-      {{ end }}
 {{- end }}</code></pre>
 <ol start="2" style="list-style-type: decimal">
-<li><strong>Darle estilo a los íconos:</strong> En la misma carpeta, generar un archivo que se llame <code>style.html</code> en donde pondremos el código que define el estilo de los íconos.</li>
+<li><strong>Darle estilo a los íconos:</strong> En la misma carpeta, generar un archivo que se llame <code>style.html</code> en donde pondremos el código que define el estilo de los íconos. Este código contiene también el código original que trae mi tema, el cual se encuentra al principio.</li>
 </ol>
-<pre class="bash"><code>&lt;style&gt;
+<pre class="bash"><code>&lt;!-- codigo original del tema--&gt;
+&lt;style&gt;
 .container {
   max-width: {{ .Site.Params.containerMaxWidth | default &quot;700px&quot; | safeCSS }};
 }
@@ -146,6 +152,9 @@ audio {
 .card-img-bottom {
   width: initial;
 }
+
+
+&lt;!-- codigo para darle estilo a los botones --&gt;
 
 .social-share {
     position: relative;
@@ -245,7 +254,7 @@ ul.share-icons li &gt; * .label {
     
 &lt;/style&gt;</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li><strong>Modificar archivo <code>single.html</code>:</strong> este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de <code>layouts/post</code> e indica que pondrá el título, luego la fecha y las etiquetas, luego el contenido. Agregué al final: “Compartir en:” y el código <code>{{ partial "socialshare.html" . }}</code></li>
+<li><strong>Modificar archivo <code>single.html</code>:</strong> este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de <code>layouts/post</code> e indica que pondrá:el título, luego la fecha y las etiquetas, luego el contenido. Y al final agregué “Compartir en:” y el código <code>{{ partial "socialshare.html" . }}</code></li>
 </ol>
 <p><em>No confundir el archivo <code>post/single.html</code> con el que se encuentra dentro de la carpeta <code>_default</code>, ya que este determina la estructura de las páginas que no son entradas del blog.</em></p>
 <pre class="bash"><code>{{ define &quot;main&quot; }}
@@ -288,7 +297,7 @@ socialshare: true
 <p><strong>Cosas a tener en consideración:</strong></p>
 <ul>
 <li><p>Al elegir esta opción pensé en alguna entrada a futuro en la que quizás no quería poner los botones de compartir, por eso elegí poner esta opción de forma manual en cada una y porque tenía sólo tres entradas anteriores. Si tu blog tiene muchos posteos, sería más eficiente escribir un código para que los botones aparezcan por defecto.</p></li>
-<li><p>Revisar que todos los enlaces se generen de forma correcta y funcionen. El código del paso 1 puede variar dependiendo del tema y otros ajustes que se tengan.</p></li>
+<li><p>Revisar que todos los enlaces se generen de forma correcta y funcionen. Los códigos, en especial el del paso 1, pueden variar dependiendo del tema y otros ajustes que se tengan.</p></li>
 </ul>
 </div>
 <div id="sección-de-comentarios" class="section level2">
@@ -304,7 +313,7 @@ socialshare: true
 <p><em>Pasos:</em></p>
 <ol style="list-style-type: decimal">
 <li><p><strong>Subir repositorio a GitHub</strong></p></li>
-<li><p><strong>Instalar Utterances</strong> desde <a href="https://utteranc.es/#configuration">https://utteranc.es/#configuration</a></p></li>
+<li><p><strong>Instalar Utterances</strong> desde <a href="https://utteranc.es/#configuration" class="uri">https://utteranc.es/#configuration</a></p></li>
 <li><p><strong>Agregar código html para cuadro de comentarios:</strong> este código lo copié desde la configuración de Utterances y debe ponerse dentro de la carpeta <code>~/layouts/partials</code>. Yo nombré este archivo como <code>comments.html</code></p></li>
 </ol>
 <pre class="bash"><code>&lt;script src=&quot;https://utteranc.es/client.js&quot;
