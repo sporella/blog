@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>30 días de mapas, mis apuntes</title>
+      <link>/2020/12/01/30daymap/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/12/01/30daymap/</guid>
+      <description>Durante noviembre participé en el desafío #30DayMapChallenge a pesar de que al terminar #30díasdegráficos en junio dije ¡que nunca más participaría en este tipo de desafíos! En este post hablaré de mi experiencia haciendo mapas durante todo un mes, dejaré por escrito algunas cosas que no quiero olvidar, recursos que encontré de utilidad y las nuevas cosas que aprendí.
+Por qué participarPorque es una muy buena oportunidad para aprender cosas nuevas y poner en práctica lo que ya sabes.</description>
+    </item>
     
     <item>
       <title>Agregando utilidades al blog</title>
