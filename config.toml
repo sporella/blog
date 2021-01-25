@@ -46,6 +46,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     pre = "codepen"
     url = "/projects2/"
     weight = 5
+  [[menu.nav]]
+    name = "Galería"
+    pre = "aperture"
+    url = "/gallery/"
+    weight = 6    
 
 
 [params]

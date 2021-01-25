@@ -64,6 +64,25 @@ Así que me animé a hacer una web personal en donde ir escribiendo sobre todas 
     </item>
     
     <item>
+      <title></title>
+      <link>/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gallery/</guid>
+      <description>Galería de arte accidental
+   Agua
+      Andes
+      Bosque
+      Caos
+      Contornos
+      Cumbres borrascosas
+      Cumbres
+      Monocromo
+      Rayos
+      Sombras</description>
+    </item>
+    
+    <item>
       <title>Proyectos</title>
       <link>/projects2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
