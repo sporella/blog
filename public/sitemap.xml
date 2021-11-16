@@ -103,6 +103,11 @@
   </url>
   
   <url>
+    <loc>/gallery/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/projects2/</loc>
   </url>
   
