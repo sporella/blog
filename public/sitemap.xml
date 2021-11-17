@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/2020-12-01-30daymap/</loc>
+    <loc>/2020/12/01/30daymap/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/desaf%C3%ADos/</loc>
+    <loc>/tags/desaf%C3%ADos/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/ggplot2/</loc>
+    <loc>/tags/ggplot2/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/mapas/</loc>
+    <loc>/tags/mapas/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/rspatial/</loc>
+    <loc>/tags/rspatial/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/2020-10-12-agregando-utilidades/</loc>
+    <loc>/2020/10/12/agregando-utilidades-hugo/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/latinr/</loc>
+    <loc>/tags/latinr/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/chile/</loc>
+    <loc>/tags/chile/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/highcharter/</loc>
+    <loc>/tags/highcharter/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/tidyverse/</loc>
+    <loc>/tags/tidyverse/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/2020-05-13-visualizaci%C3%B3n-con-highcharter-brecha-de-g%C3%A9nero-en-carreras-tecnol%C3%B3gicas/</loc>
+    <loc>/2020/05/13/highcharter-brechas/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/m%C3%BAsica/</loc>
+    <loc>/tags/m%C3%BAsica/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/2020-05-12-m%C3%BAsica-datos-y-gr%C3%A1ficos/</loc>
+    <loc>/2020/05/12/musica-datos-y-graficos/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/2019-09-24-hola-blogdown/</loc>
+    <loc>/2019/09/24/hola-blogdown/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/gallery/</loc>
+    <loc>/gallery/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://example.com/projects2/</loc>
+    <loc>/projects2/</loc>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>/about/</loc>
   </url>
 </urlset>
