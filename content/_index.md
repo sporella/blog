@@ -14,7 +14,7 @@ title:
 <!-- Include Animatelo -->
 <script src="https://cdn.rawgit.com/gibbok/animatelo/1.0.3/dist/animatelo.min.js"></script>
 
-<a href="/post/"><img id="cube" src="images_index/3d-cube (1).png" width=150>
+<a href="/post/"><img id="cube" src="images_index/cube.png" width=150>
 <br></br>
 
 
