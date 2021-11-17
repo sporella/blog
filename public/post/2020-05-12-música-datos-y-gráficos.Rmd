@@ -8,7 +8,8 @@ tags:
   - ggplot2
   - música
   - R
-slug: música-datos-y-gráficos
+slug: musica-datos-y-graficos
+socialshare: true
 ---
 
 Empieza el desafío #30díasdegráficos propuesto por la comunidad [R4DS_es](https://twitter.com/R4DS_es/), comunidad hispanohablante de R para recordar a Florence Nightingale y aprender sobre visualización de datos.
