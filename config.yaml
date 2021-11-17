@@ -1,0 +1,92 @@
+baseURL: https://example.com
+languageCode: en-us
+title: Vanilla
+theme: "vanilla-bootstrap-hugo-theme"
+googleAnalytics: UA-123456789-1
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+menu:
+  nav:
+  - name: Inico
+    pre: home
+    url: /
+    weight: 1
+  - name: Sobre mí
+    pre: smile
+    url: /about/
+    weight: 2
+  - name: Blog
+    pre: edit
+    url: /post/
+    weight: 3
+  - name: Tags
+    pre: tag
+    url: /tags/
+    weight: 4
+  - name: Proyectos
+    pre: codepen
+    url: /projects2/
+    weight: 5
+  - name: Galería
+    pre: aperture
+    url: /gallery/
+    weight: 6  
+
+params:
+  includeBootstrapJs: false
+  showActiveNav: true
+  containerMaxWidth: 780px
+  dateFormat: Jan 2, 2006
+  footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
+  hideFooter: false
+  katex: true
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
+      
+Params:
+  social:
+    share:
+      facebook: true
+      linkedin: true
+      twitter: true
+      whatsapp: true
+      email: true
+      
+
+
