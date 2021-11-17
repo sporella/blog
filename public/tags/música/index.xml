@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>música on Vanilla</title>
-    <link>https://example.com/tags/m%C3%BAsica/</link>
-    <description>Recent content in música on Vanilla</description>
+    <title>música on Stephanie Orellana</title>
+    <link>/tags/m%C3%BAsica/</link>
+    <description>Recent content in música on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/m%C3%BAsica/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/m%C3%BAsica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Música, datos y gráficos</title>
-      <link>https://example.com/2020-05-12-m%C3%BAsica-datos-y-gr%C3%A1ficos/</link>
+      <link>/2020/05/12/musica-datos-y-graficos/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2020-05-12-m%C3%BAsica-datos-y-gr%C3%A1ficos/</guid>
+      <guid>/2020/05/12/musica-datos-y-graficos/</guid>
       <description>Empieza el desafío #30díasdegráficos propuesto por la comunidad R4DS_es, comunidad hispanohablante de R para recordar a Florence Nightingale y aprender sobre visualización de datos.
 En este primer día, la consigna fue crear un gráfico de barras/columna.
 Hace tiempo que tenía ganas de trabjar con la API de Spotify y decidí visualizar las estadísticas que genera Spotify para caracterizar las canciones, esto utilizando el paquete Rspotify y mi álbum favorito durante esta cuarentena: HVMAN.</description>

@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Vanilla</title>
-    <link>https://example.com/tags/</link>
-    <description>Recent content in Tags on Vanilla</description>
+    <title>Tags on Stephanie Orellana</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>desafíos</title>
-      <link>https://example.com/tags/desaf%C3%ADos/</link>
+      <link>/tags/desaf%C3%ADos/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/desaf%C3%ADos/</guid>
+      <guid>/tags/desaf%C3%ADos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ggplot2</title>
-      <link>https://example.com/tags/ggplot2/</link>
+      <link>/tags/ggplot2/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/ggplot2/</guid>
+      <guid>/tags/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mapas</title>
-      <link>https://example.com/tags/mapas/</link>
+      <link>/tags/mapas/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/mapas/</guid>
+      <guid>/tags/mapas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://example.com/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://example.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rspatial</title>
-      <link>https://example.com/tags/rspatial/</link>
+      <link>/tags/rspatial/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/rspatial/</guid>
+      <guid>/tags/rspatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>https://example.com/tags/blogdown/</link>
+      <link>/tags/blogdown/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/blogdown/</guid>
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LatinR</title>
-      <link>https://example.com/tags/latinr/</link>
+      <link>/tags/latinr/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/latinr/</guid>
+      <guid>/tags/latinr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chile</title>
-      <link>https://example.com/tags/chile/</link>
+      <link>/tags/chile/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/chile/</guid>
+      <guid>/tags/chile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>highcharter</title>
-      <link>https://example.com/tags/highcharter/</link>
+      <link>/tags/highcharter/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/highcharter/</guid>
+      <guid>/tags/highcharter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyverse</title>
-      <link>https://example.com/tags/tidyverse/</link>
+      <link>/tags/tidyverse/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/tidyverse/</guid>
+      <guid>/tags/tidyverse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>música</title>
-      <link>https://example.com/tags/m%C3%BAsica/</link>
+      <link>/tags/m%C3%BAsica/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/m%C3%BAsica/</guid>
+      <guid>/tags/m%C3%BAsica/</guid>
       <description></description>
     </item>
     

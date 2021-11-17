@@ -1,14 +1,21 @@
-baseURL: https://example.com
+baseURL: /
 languageCode: en-us
-title: Vanilla
-theme: "vanilla-bootstrap-hugo-theme"
-googleAnalytics: UA-123456789-1
-
+title: Stephanie Orellana
+theme: vanilla-bootstrap-hugo-theme
+googleAnalytics: UA-180361884-1
+pygmentsCodefences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsStyle: paraiso-dark
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _files$
+  - _cache$
 taxonomies:
   tag: tags
-
 permalinks:
-  post: /:filename/
+  post: '/:year/:month/:day/:slug/'
+
 
 # See https://feathericons.com/
 # The value of pre is the icon name
