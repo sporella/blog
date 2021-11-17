@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="generator" content="Hugo 0.83.1" />
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="icon" href="/img/ufo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://example.com/css/bootstrap.min.css">
+  <link rel="icon" href="https://example.com/img/ufo.png" type="image/x-icon">
   
   
     
   
-  <title>Stephanie Orellana</title>
+  <title>Vanilla</title>
   <style>
 .container {
   max-width: 700px;
@@ -198,7 +198,7 @@ ul.share-icons li > * .label {
       
     
     
-    <a class="nav-link " href="/"><i data-feather="home"></i> Inicio</a>
+    <a class="nav-link " href="/"><i data-feather="home"></i> Inico</a>
   
     
       
@@ -239,15 +239,34 @@ ul.share-icons li > * .label {
 
 <div id="home-jumbotron" class="jumbotron text-center">
 
-  <h1>Stephanie Orellana</h1>
-  <hr>
-<p><a href="/post/"><img src="images_index/cube.png" alt="drawing"></a></p>
-<hr>
-<p>Ciencia de Datos en Español</p>
-<p><a href="https://github.com/sporella/"><img src="images_index/github.svg" alt=""></a> 
-<a href="https://twitter.com/sporella/"><img src="images_index/twitter.svg" alt=""></a>
-<a href="mailto:sporella@uc.cl/"><img src="images_index/at-sign.svg" alt=""></a></p>
-
+  <h1></h1>
+  <h1 id="stephanie-orellana">STEPHANIE ORELLANA</h1>
+<p><br></br></p>
+<!-- Include the typeit -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+<!-- Include the polyfill -->
+<script src="https://cdn.rawgit.com/web-animations/web-animations-js/2.2.2/web-animations.min.js"></script>
+<!-- Include Animatelo -->
+<script src="https://cdn.rawgit.com/gibbok/animatelo/1.0.3/dist/animatelo.min.js"></script>
+<p><a href="/post/"><img id="cube" src="images_index/cube.png" width=150>
+<br></br></p>
+<!-- Animate! -->
+<script>
+var options = {
+  duration: 3000,
+  fill: 'both'
+};
+    window.animatelo.jackInTheBox('#cube', options);
+</script>
+<p class="multipleStrings" style = "font-family:Lucida Console, monospace;font-size:16px;font-weight: 600;"></p>
+<script>
+  new TypeIt(".multipleStrings", {
+    strings: ["ciencia_de_datos_en_espanol"],
+    breakLines: false,
+    loop: false,
+    speed: 100
+  }).go();
+</script> 
 
 </div>
 
@@ -261,7 +280,7 @@ ul.share-icons li > * .label {
   </div>
 </footer>
 
-    <script src="/js/feather.min.js"></script>
+    <script src="https://example.com/js/feather.min.js"></script>
 <script>
   feather.replace()
 </script>
@@ -275,7 +294,7 @@ ul.share-icons li > * .label {
   
   <script>
   window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-180361884-1', 'auto');
+  ga('create', 'UA-123456789-1', 'auto');
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>

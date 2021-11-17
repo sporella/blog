@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chile on Stephanie Orellana</title>
-    <link>/tags/chile/</link>
-    <description>Recent content in chile on Stephanie Orellana</description>
+    <title>chile on Vanilla</title>
+    <link>https://example.com/tags/chile/</link>
+    <description>Recent content in chile on Vanilla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/chile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/chile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
-      <link>/2020/05/13/highcharter-brechas/</link>
+      <link>https://example.com/2020-05-13-visualizaci%C3%B3n-con-highcharter-brecha-de-g%C3%A9nero-en-carreras-tecnol%C3%B3gicas/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/13/highcharter-brechas/</guid>
+      <guid>https://example.com/2020-05-13-visualizaci%C3%B3n-con-highcharter-brecha-de-g%C3%A9nero-en-carreras-tecnol%C3%B3gicas/</guid>
       <description>Para el segundo día del desafío #30díasdegráficos propuesto por la comunidad R4DS_es, la consigna es realizar gráficos de líneas.
 Esta vez, me propuse trabajar con el paquete highcharter y tuve la oportunidad de probar las maravillas del argumento names_pattern de la función tidyr::pivot_longer() el cual facilita mucho el trabajo con columnas en donde el nombre especifica dos variables.
 Sobre los datosLos datos los obtuve desde la web del INE.</description>

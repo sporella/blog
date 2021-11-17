@@ -8,6 +8,7 @@ tags:
   - blogdown
   - R
 slug: hola-blogdown
+socialshare: true
 ---
 
 -----
