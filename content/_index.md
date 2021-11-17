@@ -39,3 +39,7 @@ var options = {
     speed: 100
   }).go();
 </script> 
+
+[![](images_index/github.svg)](https://github.com/sporella/) 
+[![](images_index/twitter.svg)](https://twitter.com/sporella/)
+[![](images_index/at-sign.svg)](mailto:sporella@uc.cl/)
