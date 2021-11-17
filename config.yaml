@@ -1,5 +1,7 @@
 baseURL: /
 languageCode: es
+defaultContentLanguage: es
+defaultContentLanguageInSubdir: true
 title: Stephanie Orellana
 theme: vanilla-bootstrap-hugo-theme
 googleAnalytics: UA-180361884-1
