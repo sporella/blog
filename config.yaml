@@ -9,6 +9,7 @@ pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
 images: ["img/ufo.png"]
+card: summary_large_image
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -101,8 +102,6 @@ Params:
       whatsapp: true
       email: true
 
-twitter:
-  card: summary_large_image
-  image: 'https://example.com/great-picture.jpg'
+
 
 
