@@ -8,6 +8,7 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
+images: ["img/ufo.png"]
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -56,6 +57,9 @@ params:
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
   hideFooter: false
   katex: true
+  description: Text about my cool site
+  images:
+  - img/ufo.png
 
 markup:
   defaultMarkdownHandler: goldmark
