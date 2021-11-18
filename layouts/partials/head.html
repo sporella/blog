@@ -3,13 +3,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ hugo.Generator }}
   {{ partial "twitter-card" . }}
-  <meta name="twitter:text:title" content="{{ .Title }}"/>
-  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
-  <link rel="icon" href="{{ "img/ufo.png" | absURL }}" type="image/x-icon">
-  {{ $title := print .Title " | " .Site.Title }}
+    {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
     {{ $title = .Site.Title }}
   {{ end }}
+  <meta name="twitter:text:title" content="{{ .Title }}"/>
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
+  <link rel="icon" href="{{ "img/ufo.png" | absURL }}" type="image/x-icon">
   <title>{{ $title }}</title>
   {{ partial "style.html" . }}
 </head>
