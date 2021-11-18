@@ -14,6 +14,7 @@
 {{- with $.Site.Params.images -}}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+<meta name="twitter:text:title" content="{{ .Title }}"/>
 {{ else -}}
 <meta name="twitter:card" content="summary"/>
 {{- end -}}
