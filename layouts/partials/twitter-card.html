@@ -7,11 +7,11 @@
 {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
 {{- with $featured -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"/>
 {{- else -}}
 {{- with $.Site.Params.images -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"/>
 {{ else -}}
 <meta name="twitter:card" content="summary"/>
 {{- end -}}
