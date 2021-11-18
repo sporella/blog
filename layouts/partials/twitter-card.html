@@ -9,6 +9,7 @@
 {{- with $featured -}}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+<meta name="twitter:text:title" content="{{ .Title }}"/>
 {{- else -}}
 {{- with $.Site.Params.images -}}
 <meta name="twitter:card" content="summary_large_image"/>
