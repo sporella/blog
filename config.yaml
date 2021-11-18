@@ -101,4 +101,8 @@ Params:
       whatsapp: true
       email: true
 
+twitter:
+  card: summary_large_image
+  image: 'https://example.com/great-picture.jpg'
+
 
