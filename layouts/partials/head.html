@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ hugo.Generator }}
+  {{ partial "twitter-card" . }}
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
   <link rel="icon" href="{{ "img/ufo.png" | absURL }}" type="image/x-icon">
   {{ $title := print .Title " | " .Site.Title }}
@@ -10,5 +11,4 @@
   {{ end }}
   <title>{{ $title }}</title>
   {{ partial "style.html" . }}
-  {{ partial "twitter-card" . }}
 </head>
