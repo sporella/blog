@@ -8,7 +8,7 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
-images: img/pre.png
+images: ["/img/pre.png"]
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -97,7 +97,4 @@ Params:
       twitter: true
       whatsapp: true
       email: true
-
-
-
 
