@@ -8,7 +8,7 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
-images: img/gallery_img/Amonite.png
+images: img/pre.png
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
