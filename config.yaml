@@ -100,4 +100,9 @@ Params:
       twitter: true
       whatsapp: true
       email: true
+twitter:
+- card: "summary_large_image"
+- site: "@sporella"
+- creator: "@sporella"
+- image: "img/ufo.png"
 
