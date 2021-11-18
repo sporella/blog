@@ -57,12 +57,7 @@ params:
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
   hideFooter: false
   katex: true
-  description: Text about my cool site
-  images:
-  - img/ufo.png
-  twitterCard:
-    generate: true
-
+    
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
