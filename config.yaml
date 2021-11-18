@@ -8,7 +8,7 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
-images: ["/img/pre.png"]
+images: ["https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"]
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
