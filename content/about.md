@@ -5,19 +5,6 @@ title: Sobre mí
 
 -----
 
-
-
-
-
-<style> 
-.wrapingimage
-{
-float: right; 
-margin: 30px 12px 3px 4px;
-width: 40%
-}
-</style> 
-
 </head> 
 <body> 
 <div class="wrapingimage"> 
