@@ -1,6 +1,5 @@
 ---
 draft: false
-images: ["img/gallery_img/Selva.PNG"]
 ---
 
 # Galería de Arte Accidental
