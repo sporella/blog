@@ -17,7 +17,6 @@ taxonomies:
   tag: tags
 permalinks:
   post: '/:year/:month/:day/:slug/'
-images: [ static/img/ufo.png ]
 # See https://feathericons.com/
 # The value of pre is the icon name
 menu:
@@ -55,6 +54,8 @@ params:
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
   hideFooter: false
   katex: true
+  images:
+    - 'static/img/ufo.png'
     
 markup:
   defaultMarkdownHandler: goldmark
