@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogdown on Stephanie Orellana</title>
-    <link>/tags/blogdown/</link>
+    <link>https://sporella.xyz/tags/blogdown/</link>
     <description>Recent content in blogdown on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sporella.xyz/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agregando utilidades al blog</title>
-      <link>/2020/10/12/agregando-utilidades-hugo/</link>
+      <link>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/10/12/agregando-utilidades-hugo/</guid>
+      <guid>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</guid>
       <description>En el marco de la edición 2020 de LatinR, Maëlle Salmon hizo un muy buen tutorial en español sobre cómo bloguear con R Markdown. No pude verlo en vivo, pero la grabación se encuentra disponible en el Canal de Youtube de LatinR, así como todas las demás actividades de la conferencia :)
 Después de mirar el video, quedé muy inspirada para mejorar mi blog y seguir escribiendo aunque sea una entrada por año.</description>
     </item>
     
     <item>
       <title>¡Hola blogdown!</title>
-      <link>/2019/09/24/hola-blogdown/</link>
+      <link>https://sporella.xyz/2019/09/24/hola-blogdown/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/09/24/hola-blogdown/</guid>
+      <guid>https://sporella.xyz/2019/09/24/hola-blogdown/</guid>
       <description>Aprovechando que se abrieron las postulaciones para las becas de diversidad rstudio::conf(2020) asistí a la mentoría de R-Ladies Santiago en donde aprendimos a sistematizar nuestros proyectos mediante una página web usando el paquete blogdown.
 Así que me animé a hacer una web personal en donde ir escribiendo sobre todas las nuevas cosas que voy aprendiendo en el extenso universo de R. Esta primera entrada es acerca de blogdown y lo fácil que es hacer un sitio web con conocimientos mínimos de css o html, aunque sí es necesario saber cosas de R y R markdown.</description>
     </item>

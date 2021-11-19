@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Stephanie Orellana</title>
-    <link>/post/</link>
+    <link>https://sporella.xyz/post/</link>
     <description>Recent content in Posts on Stephanie Orellana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sporella.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>30 días de mapas, mis apuntes</title>
-      <link>/2020/12/01/30daymap/</link>
+      <link>https://sporella.xyz/2020/12/01/30daymap/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/12/01/30daymap/</guid>
+      <guid>https://sporella.xyz/2020/12/01/30daymap/</guid>
       <description>Durante noviembre participé en el desafío #30DayMapChallenge a pesar de que al terminar #30díasdegráficos en junio dije ¡que nunca más participaría en este tipo de desafíos! En este post hablaré de mi experiencia haciendo mapas durante todo un mes, dejaré por escrito algunas cosas que no quiero olvidar, recursos que encontré de utilidad y las nuevas cosas que aprendí.
 Por qué participarPorque es una muy buena oportunidad para aprender cosas nuevas y poner en práctica lo que ya sabes.</description>
     </item>
     
     <item>
       <title>Agregando utilidades al blog</title>
-      <link>/2020/10/12/agregando-utilidades-hugo/</link>
+      <link>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/10/12/agregando-utilidades-hugo/</guid>
+      <guid>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</guid>
       <description>En el marco de la edición 2020 de LatinR, Maëlle Salmon hizo un muy buen tutorial en español sobre cómo bloguear con R Markdown. No pude verlo en vivo, pero la grabación se encuentra disponible en el Canal de Youtube de LatinR, así como todas las demás actividades de la conferencia :)
 Después de mirar el video, quedé muy inspirada para mejorar mi blog y seguir escribiendo aunque sea una entrada por año.</description>
     </item>
     
     <item>
       <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
-      <link>/2020/05/13/highcharter-brechas/</link>
+      <link>https://sporella.xyz/2020/05/13/highcharter-brechas/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/13/highcharter-brechas/</guid>
+      <guid>https://sporella.xyz/2020/05/13/highcharter-brechas/</guid>
       <description>Para el segundo día del desafío #30díasdegráficos propuesto por la comunidad R4DS_es, la consigna es realizar gráficos de líneas.
 Esta vez, me propuse trabajar con el paquete highcharter y tuve la oportunidad de probar las maravillas del argumento names_pattern de la función tidyr::pivot_longer() el cual facilita mucho el trabajo con columnas en donde el nombre especifica dos variables.
 Sobre los datosLos datos los obtuve desde la web del INE.</description>
@@ -40,10 +40,10 @@ Sobre los datosLos datos los obtuve desde la web del INE.</description>
     
     <item>
       <title>Música, datos y gráficos</title>
-      <link>/2020/05/12/musica-datos-y-graficos/</link>
+      <link>https://sporella.xyz/2020/05/12/musica-datos-y-graficos/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/12/musica-datos-y-graficos/</guid>
+      <guid>https://sporella.xyz/2020/05/12/musica-datos-y-graficos/</guid>
       <description>Empieza el desafío #30díasdegráficos propuesto por la comunidad R4DS_es, comunidad hispanohablante de R para recordar a Florence Nightingale y aprender sobre visualización de datos.
 En este primer día, la consigna fue crear un gráfico de barras/columna.
 Hace tiempo que tenía ganas de trabjar con la API de Spotify y decidí visualizar las estadísticas que genera Spotify para caracterizar las canciones, esto utilizando el paquete Rspotify y mi álbum favorito durante esta cuarentena: HVMAN.</description>
@@ -51,10 +51,10 @@ Hace tiempo que tenía ganas de trabjar con la API de Spotify y decidí visualiz
     
     <item>
       <title>¡Hola blogdown!</title>
-      <link>/2019/09/24/hola-blogdown/</link>
+      <link>https://sporella.xyz/2019/09/24/hola-blogdown/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/09/24/hola-blogdown/</guid>
+      <guid>https://sporella.xyz/2019/09/24/hola-blogdown/</guid>
       <description>Aprovechando que se abrieron las postulaciones para las becas de diversidad rstudio::conf(2020) asistí a la mentoría de R-Ladies Santiago en donde aprendimos a sistematizar nuestros proyectos mediante una página web usando el paquete blogdown.
 Así que me animé a hacer una web personal en donde ir escribiendo sobre todas las nuevas cosas que voy aprendiendo en el extenso universo de R. Esta primera entrada es acerca de blogdown y lo fácil que es hacer un sitio web con conocimientos mínimos de css o html, aunque sí es necesario saber cosas de R y R markdown.</description>
     </item>

@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://sporella.xyz/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2020/12/01/30daymap/</loc>
+    <loc>https://sporella.xyz/2020/12/01/30daymap/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/desaf%C3%ADos/</loc>
+    <loc>https://sporella.xyz/tags/desaf%C3%ADos/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ggplot2/</loc>
+    <loc>https://sporella.xyz/tags/ggplot2/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/mapas/</loc>
+    <loc>https://sporella.xyz/tags/mapas/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>https://sporella.xyz/post/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/python/</loc>
+    <loc>https://sporella.xyz/tags/python/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/r/</loc>
+    <loc>https://sporella.xyz/tags/r/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/rspatial/</loc>
+    <loc>https://sporella.xyz/tags/rspatial/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://sporella.xyz/tags/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2020/10/12/agregando-utilidades-hugo/</loc>
+    <loc>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blogdown/</loc>
+    <loc>https://sporella.xyz/tags/blogdown/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/latinr/</loc>
+    <loc>https://sporella.xyz/tags/latinr/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/chile/</loc>
+    <loc>https://sporella.xyz/tags/chile/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/highcharter/</loc>
+    <loc>https://sporella.xyz/tags/highcharter/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tidyverse/</loc>
+    <loc>https://sporella.xyz/tags/tidyverse/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2020/05/13/highcharter-brechas/</loc>
+    <loc>https://sporella.xyz/2020/05/13/highcharter-brechas/</loc>
     <lastmod>2020-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/m%C3%BAsica/</loc>
+    <loc>https://sporella.xyz/tags/m%C3%BAsica/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2020/05/12/musica-datos-y-graficos/</loc>
+    <loc>https://sporella.xyz/2020/05/12/musica-datos-y-graficos/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/2019/09/24/hola-blogdown/</loc>
+    <loc>https://sporella.xyz/2019/09/24/hola-blogdown/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/gallery/</loc>
+    <loc>https://sporella.xyz/gallery/</loc>
   </url><url>
-    <loc>/projects2/</loc>
+    <loc>https://sporella.xyz/projects2/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://sporella.xyz/about/</loc>
   </url>
 </urlset>
