@@ -8,8 +8,6 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
-images: 
-  - "./img/ufo.png"
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
