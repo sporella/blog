@@ -10,6 +10,7 @@ tags:
   - R
   - LatinR
 socialshare: true
+images: ["img/redes_sociales.PNG"]
 ---
 
 En el marco de la edición 2020 de LatinR, [Maëlle Salmon](https://twitter.com/ma_salmon) hizo un muy buen tutorial en español sobre cómo bloguear con R Markdown. No pude verlo en vivo, pero la grabación se encuentra disponible en el [Canal de Youtube de LatinR](https://www.youtube.com/watch?v=UYvSv8StDa8&t=8508s&ab_channel=LatinR), así como todas las demás actividades de la conferencia :)

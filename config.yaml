@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://sporella.xyz
 languageCode: es
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: true
@@ -8,17 +8,17 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
+images: img/ufo.png
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
-  - _files$
   - _cache$
 taxonomies:
   tag: tags
 permalinks:
   post: '/:year/:month/:day/:slug/'
-
-
+  
+  
 # See https://feathericons.com/
 # The value of pre is the icon name
 menu:
@@ -56,7 +56,7 @@ params:
   footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
   hideFooter: false
   katex: true
-
+    
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -96,6 +96,5 @@ Params:
       twitter: true
       whatsapp: true
       email: true
-      
-
+  images: ["/img/selva.png"]    
 
