@@ -1,6 +1,7 @@
 ---
 date: "2019-24-09"
 title: Sobre mí
+images: ["img/me.png"]
 ---
 
 -----
