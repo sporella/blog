@@ -97,5 +97,5 @@ Params:
       twitter: true
       whatsapp: true
       email: true
-  images: ["img/gallery_img/Bosque.png"]    
+  images: ["img/cube.png"]    
 
