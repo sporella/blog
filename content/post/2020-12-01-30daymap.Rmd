@@ -79,7 +79,7 @@ Esto es muy importante, gran parte del desafío radica en encontrar el set de da
 
 # Paquetes de R
 
-Para este desafío fue fundamental usar los paquetes de #rspatial, los principales: `{raster}`, `{sf}` y `stars` y también los paquetes gráficos `{ggplot2}`, `{ggmap}`, `{gganimate}`, `{animation}`, etc. 
+Para este desafío fue fundamental usar los paquetes de #rspatial, los principales: `{raster}`, `{sf}` y `{stars}` y también los paquetes gráficos `{ggplot2}`, `{ggmap}`, `{gganimate}`, `{animation}`, etc. 
 
 Paquetes que nunca había usado antes:
 
@@ -155,7 +155,7 @@ Si no tienes mucha experiencia, pero quieres comenzar a aprender, acá dejo algu
 
 - [repositorio 30 días de mapas 2020](https://github.com/sporella/30daymap): acá están todos los mapas que hice durante el desafío, es un repositorio completo que puedes clonar y replicar todos los mapas.
 
-- [repositorio 30 días de gráficos 2020](https://github.com/sporella/nightingale): acá están todos los mapas que hice durante el desafío #30díasdegráficos, es un repositorio completo que puedes clonar y replicar todos los gráficos.
+- [repositorio 30 días de gráficos 2020](https://github.com/sporella/nightingale): acá están todos los gráficos que hice durante el desafío #30díasdegráficos, es un repositorio completo que puedes clonar y replicar todos los gráficos.
 
 - [Taller de datos espaciales RLadiesChile](https://github.com/sporella/datos_espaciales_tutorial): taller introductorio sobre datos espaciales con R que realicé para RLadies Chile.
 

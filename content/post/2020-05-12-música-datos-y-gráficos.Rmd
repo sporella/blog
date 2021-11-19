@@ -33,7 +33,7 @@ El segundo disco, "NATVRE" es un disco instrumental en donde se divide la canci�
 
 Para acceder a la API de Spotify, creé una api ingresando al [Spotify para desarrolladores](https://developer.spotify.com/documentation/web-api/) y modifiqué el parámetro `Redirect URIs` por `http://localhost:1410/` que es el puerto que usa R en mi computador.
 
-Luego de eso, rescaté el `client_id` y `client_secret` y me fui a R. Dejo las credenciales por si es que no quieren hacer su propia API y utilizar la mía.
+Luego de eso, rescaté el `client_id` y `client_secret` y me fui a R. Debes reemplazar las credenciales por las de tu propia API.
 
 
 ```{r, eval=F, echo=T}
@@ -41,9 +41,9 @@ library(tidyverse)
 library(Rspotify)
 
 
-my_oauth <- spotifyOAuth(app_id="sporella_ds",
-                         client_id="e5674ff41ebe4830bc05f255b54aea9a",
-                         client_secret="27e712ff7f0a4610800dc1bd36effae8")
+my_oauth <- spotifyOAuth(app_id="tu_api_id",
+                         client_id="tu_cliente_id",
+                         client_secret="tu_clave_sercreta")
 save(my_oauth, file="my_oauth")
 load("my_oauth")
 
