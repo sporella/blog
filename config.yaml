@@ -17,9 +17,8 @@ taxonomies:
   tag: tags
 permalinks:
   post: '/:year/:month/:day/:slug/'
-images: ["ufo.png"]
-
-
+images:
+    dir: :static/img
 # See https://feathericons.com/
 # The value of pre is the icon name
 menu:
