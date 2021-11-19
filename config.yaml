@@ -17,6 +17,7 @@ taxonomies:
   tag: tags
 permalinks:
   post: '/:year/:month/:day/:slug/'
+images: ["ufo.png"]
 
 
 # See https://feathericons.com/
