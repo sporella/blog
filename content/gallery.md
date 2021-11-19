@@ -6,4 +6,4 @@ draft: false
 
 *Trabajando con datos a veces un error hace aparecer algo hermoso. A veces lo hermoso está en los propios datos.*
 
-{{< gallery dir="img/gallery_img/" caption-position="center" />}}
+{{< gallery dir="/img/gallery_img" caption-position="center" />}}
