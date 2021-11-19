@@ -269,7 +269,7 @@ ul.share-icons li > * .label {
 </style>
 ```
 
-3)  **Modificar archivo `single.html`:** este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de `layouts/post` e indica que pondrá:el título, luego la fecha y las etiquetas, luego el contenido. Y al final agregué "Compartir en:" y el código `{{ partial "socialshare.html" . }}`
+3)  **Modificar archivo `single.html`:** este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de `layouts/post` e indica que pondrá: el título, luego la fecha y las etiquetas, luego el contenido. Y al final agregué "Compartir en:" y el código `{{ partial "socialshare.html" . }}`
 
 *No confundir el archivo `post/single.html` con el que se encuentra dentro de la carpeta `_default`, ya que este determina la estructura de las páginas que no son entradas del blog.*
 

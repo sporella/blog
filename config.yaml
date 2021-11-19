@@ -8,7 +8,7 @@ googleAnalytics: UA-180361884-1
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: paraiso-dark
-images: img/ufo.png
+enableEmoji: true
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -41,7 +41,7 @@ menu:
     weight: 4
   - name: Proyectos
     pre: codepen
-    url: /projects2/
+    url: /projects/
     weight: 5
   - name: Galería
     pre: aperture

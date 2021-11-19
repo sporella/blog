@@ -14,11 +14,11 @@ images: ["img/me.png"]
 <p> 
 Soy de Santiago de Chile.
 
-Soy Ingeniera Agrónoma y me dedico a la Ciencia de Datos con enfoque en los Recursos Naturales. Mi mayor interés son los datos espaciales y la visualización de datos, así como todo lo que el mundo de la programación tiene para ofrecer.
+Soy Ingeniera Agrónoma y Magíster en Recursos Naturales y trabajo como científica de datos enfocada en temas ambientales, cambio climático y datos espaciales. También soy parte de [R-Ladies Santiago](https://www.meetup.com/es-ES/rladies-scl/) e [Instructora Certificada por RStudio](https://education.rstudio.com/trainers/people/orellana+stephanie/).
 
-Actualmente trabajo como Data Scientist en [Cienciambiental Consultores](http://www.cienciambiental.cl/). También soy parte de [R-Ladies Santiago](https://twitter.com/rladiessantiago).
+Mi mayor interés son los datos espaciales y la visualización de datos, así como todo lo que el mundo de la programación tiene para ofrecer. Espero en algún momento programar mi propio videojuego o hacer un mini robot, solo por diversión :robot:
 
-Fuera del trabajo canto en un coro, escribo algunos cuentos y cocino los fines de semana.
+También me gusta mucho enseñar y creo que es una muy buena forma de aprender, nunca he aprendido tanto de un tema en específico sino hasta que he tenido que preparar una clase o un taller sobre ello :rocket:
 
 Acá hablaré fundamentalmente de R, los proyectos en los que participo y las cosas nuevas que voy aprendiendo. También aparecerá algo de Python :) y otras cosas que me llamen la atención.
 
