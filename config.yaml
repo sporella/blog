@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://sporella.xyz
 languageCode: es
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: true
@@ -12,7 +12,6 @@ images: img/ufo.png
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
-  - _files$
   - _cache$
 taxonomies:
   tag: tags
