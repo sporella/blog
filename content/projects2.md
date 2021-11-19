@@ -1,5 +1,6 @@
 ---
 title: "Proyectos"
+images: ["img/gallery_img/Vida.PNG"]
 ---
 
 ------

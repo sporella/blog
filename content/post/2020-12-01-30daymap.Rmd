@@ -13,6 +13,7 @@ tags:
   - python
   - rspatial
 socialshare: true
+images: ["https://github.com/sporella/30daymap/blob/master/plots/0_collage.png?raw=true"]
 ---
 
 Durante noviembre participé en el desafío [#30DayMapChallenge](https://github.com/tjukanovt/30DayMapChallenge) a pesar de que al terminar [#30díasdegráficos](https://github.com/sporella/nightingale) en junio dije ¡que nunca más participaría en este tipo de desafíos! En este post hablaré de mi experiencia haciendo mapas durante todo un mes, dejaré por escrito algunas cosas que no quiero olvidar, recursos que encontré de utilidad y las nuevas cosas que aprendí.
