@@ -5,13 +5,18 @@ images: ["img/gallery_img/Vida.PNG"]
 
 ------
 
-### Talleres
+### Talleres y Presentaciones
 #### 2021
+
+- R-Ladies Chile - [Club de Lectura libro "Data Feminism" Capítulo 6](https://github.com/sporella/data_feminism_06)
+
+- Woman in Data Science Santiago - [Taller de Visualización de Datos Espaciales](https://github.com/sporella/wids2021)
+
 - R-Ladies Chile - [Mini taller sobre {mapview}](https://github.com/sporella/mapview_demo)
 
 - R-Ladies Madrid - [Taller sobre datos espaciales (15 de marzo de 2021)](https://github.com/sporella/datos_espaciales_madrid)
 
-- R-Ladies Chile - [Taller Expresiones Regulares (febrero 2020)](https://github.com/rladieschile/taller-regex-2021) junto a Riva Quiroga
+- R-Ladies Chile - [Taller Expresiones Regulares (febrero 2021)](https://github.com/rladieschile/taller-regex-2021) junto a Riva Quiroga
 
 #### 2020
 
