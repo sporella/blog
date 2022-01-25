@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>highcharter on Stephanie Orellana</title>
+    <link>https://sporella.xyz/tags/highcharter/</link>
+    <description>Recent content in highcharter on Stephanie Orellana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sporella.xyz/tags/highcharter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
+      <link>https://sporella.xyz/2020/05/13/highcharter-brechas/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sporella.xyz/2020/05/13/highcharter-brechas/</guid>
+      <description>Para el segundo día del desafío #30díasdegráficos propuesto por la comunidad R4DS_es, la consigna es realizar gráficos de líneas.
+Esta vez, me propuse trabajar con el paquete highcharter y tuve la oportunidad de probar las maravillas del argumento names_pattern de la función tidyr::pivot_longer() el cual facilita mucho el trabajo con columnas en donde el nombre especifica dos variables.
+Sobre los datosLos datos los obtuve desde la web del INE.</description>
+    </item>
+    
+  </channel>
+</rss>
