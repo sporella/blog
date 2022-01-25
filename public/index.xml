@@ -1,103 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Stephanie Orellana</title>
-    <link>https://sporella.xyz/</link>
-    <description>Recent content on Stephanie Orellana</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sporella.xyz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>30 días de mapas, mis apuntes</title>
-      <link>https://sporella.xyz/2020/12/01/30daymap/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/2020/12/01/30daymap/</guid>
-      <description>Durante noviembre participé en el desafío #30DayMapChallenge a pesar de que al terminar #30díasdegráficos en junio dije ¡que nunca más participaría en este tipo de desafíos! En este post hablaré de mi experiencia haciendo mapas durante todo un mes, dejaré por escrito algunas cosas que no quiero olvidar, recursos que encontré de utilidad y las nuevas cosas que aprendí.
-Por qué participarPorque es una muy buena oportunidad para aprender cosas nuevas y poner en práctica lo que ya sabes.</description>
-    </item>
-    
-    <item>
-      <title>Agregando utilidades al blog</title>
-      <link>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</link>
-      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/2020/10/12/agregando-utilidades-hugo/</guid>
-      <description>En el marco de la edición 2020 de LatinR, Maëlle Salmon hizo un muy buen tutorial en español sobre cómo bloguear con R Markdown. No pude verlo en vivo, pero la grabación se encuentra disponible en el Canal de Youtube de LatinR, así como todas las demás actividades de la conferencia :)
-Después de mirar el video, quedé muy inspirada para mejorar mi blog y seguir escribiendo aunque sea una entrada por año.</description>
-    </item>
-    
-    <item>
-      <title>Visualización con highcharter: Brecha de género en carreras tecnológicas</title>
-      <link>https://sporella.xyz/2020/05/13/highcharter-brechas/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/2020/05/13/highcharter-brechas/</guid>
-      <description>Para el segundo día del desafío #30díasdegráficos propuesto por la comunidad R4DS_es, la consigna es realizar gráficos de líneas.
-Esta vez, me propuse trabajar con el paquete highcharter y tuve la oportunidad de probar las maravillas del argumento names_pattern de la función tidyr::pivot_longer() el cual facilita mucho el trabajo con columnas en donde el nombre especifica dos variables.
-Sobre los datosLos datos los obtuve desde la web del INE.</description>
-    </item>
-    
-    <item>
-      <title>Música, datos y gráficos</title>
-      <link>https://sporella.xyz/2020/05/12/musica-datos-y-graficos/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/2020/05/12/musica-datos-y-graficos/</guid>
-      <description>Empieza el desafío #30díasdegráficos propuesto por la comunidad R4DS_es, comunidad hispanohablante de R para recordar a Florence Nightingale y aprender sobre visualización de datos.
-En este primer día, la consigna fue crear un gráfico de barras/columna.
-Hace tiempo que tenía ganas de trabjar con la API de Spotify y decidí visualizar las estadísticas que genera Spotify para caracterizar las canciones, esto utilizando el paquete Rspotify y mi álbum favorito durante esta cuarentena: HVMAN.</description>
-    </item>
-    
-    <item>
-      <title>¡Hola blogdown!</title>
-      <link>https://sporella.xyz/2019/09/24/hola-blogdown/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/2019/09/24/hola-blogdown/</guid>
-      <description>Aprovechando que se abrieron las postulaciones para las becas de diversidad rstudio::conf(2020) asistí a la mentoría de R-Ladies Santiago en donde aprendimos a sistematizar nuestros proyectos mediante una página web usando el paquete blogdown.
-Así que me animé a hacer una web personal en donde ir escribiendo sobre todas las nuevas cosas que voy aprendiendo en el extenso universo de R. Esta primera entrada es acerca de blogdown y lo fácil que es hacer un sitio web con conocimientos mínimos de css o html, aunque sí es necesario saber cosas de R y R markdown.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sporella.xyz/gallery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/gallery/</guid>
-      <description>Galería de Arte Accidental Trabajando con datos a veces un error hace aparecer algo hermoso. A veces lo hermoso está en los propios datos.
-Agua
-Amonite
-Andes
-Bosque
-Caos
-Contornos
-Cumbres borrascosas</description>
-    </item>
-    
-    <item>
-      <title>Proyectos</title>
-      <link>https://sporella.xyz/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/projects/</guid>
-      <description>Talleres y Presentaciones 2021   R-Ladies Chile - Club de Lectura libro &amp;ldquo;Data Feminism&amp;rdquo; Capítulo 6
-  Woman in Data Science Santiago - Taller de Visualización de Datos Espaciales
-  R-Ladies Chile - Mini taller sobre {mapview}
-  R-Ladies Madrid - Taller sobre datos espaciales (15 de marzo de 2021)
-  R-Ladies Chile - Taller Expresiones Regulares (febrero 2021) junto a Riva Quiroga
-  2020   LatinR - Taller sobre expresiones regulares junto a Riva Quiroga</description>
-    </item>
-    
-    <item>
-      <title>Sobre mí</title>
-      <link>https://sporella.xyz/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sporella.xyz/about/</guid>
-      <description>Soy de Santiago de Chile.Soy Ingeniera Agrónoma y Magíster en Recursos Naturales y trabajo como científica de datos enfocada en temas ambientales, cambio climático y datos espaciales. También soy parte de R-Ladies Santiago e Instructora Certificada por RStudio.
-Mi mayor interés son los datos espaciales y la visualización de datos, así como todo lo que el mundo de la programación tiene para ofrecer. Espero en algún momento programar mi propio videojuego o hacer un mini robot, solo por diversión 🤖</description>
-    </item>
-    
-  </channel>
-</rss>
