@@ -1,0 +1,694 @@
+<!doctype html>
+
+<html lang="es" class="h-100">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://sporella.xyz/img/redes_sociales.PNG"/>
+
+<meta name="twitter:title" content="Agregando utilidades al blog"/>
+<meta name="twitter:description" content="En el marco de la edición 2020 de LatinR, Maëlle Salmon hizo un muy buen tutorial en español sobre cómo bloguear con R Markdown. No pude verlo en vivo, pero la grabación se encuentra disponible en el Canal de Youtube de LatinR, así como todas las demás actividades de la conferencia :)
+Después de mirar el video, quedé muy inspirada para mejorar mi blog y seguir escribiendo aunque sea una entrada por año."/>
+
+    
+  
+  <meta name="twitter:text:title" content="Agregando utilidades al blog | Stephanie Orellana"/>
+  <link rel="stylesheet" href="https://sporella.xyz/css/bootstrap.min.css">
+  <link rel="icon" href="https://sporella.xyz/img/ufo.png" type="image/x-icon">
+  <title>Agregando utilidades al blog | Stephanie Orellana</title>
+  <style>
+.container {
+  max-width: 700px;
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+}
+#nav a.nav-link-active {
+  background-color: #212529;
+  color: #fff;
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+#footer .container {
+  padding: 1em 0;
+}
+#footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.font-125 {
+  font-size: 125%;
+}
+.tag-btn {
+  margin-bottom: 0.3em;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  background-color: transparent;
+  border-radius: 0;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #03a4d4;
+  background-color: #edf5f7;
+  border-radius: 4px;
+}
+img,
+iframe,
+embed,
+video,
+audio {
+  max-width: 100%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
+
+.social-share {
+	position: relative;
+	top: -0.5em;
+}
+ 
+.social-share ul {
+	margin: 0;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-icons li {
+	padding: 0 !important;
+	padding-bottom: 10px !important;
+}
+ 
+.social-share .share-btn {
+	padding: 0.25em;
+	width: 3em;
+}
+ 
+.social-share-nav .share-btn h3{
+	color: #ffffff;
+}
+
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 1em;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+
+ul.share-icons li > *:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+	display: none;
+}
+ 
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.share-btn:hover {
+	color: #343a40 !important;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+.share-btn .widget-social__link-icon {
+	margin: 0;
+}
+ 
+.share-btn.twitter     { background: #343a40; }
+.share-btn.google-plus { background: #343a40; }
+.share-btn.facebook    { background: #343a40; }
+.share-btn.linkedin    { background: #343a40; }
+.share-btn.stumbleupon { background: #343a40; }
+.share-btn.pinterest   { background: #343a40; }
+.share-btn.reddit      { background: #343a40; }
+.share-btn.email       { background: #343a40; }
+.share-btn.whatsapp    { background: #343a40; }
+
+
+.share-btn.twitter:hover     { background: #ffffff; }
+.share-btn.google-plus:hover { background: #ffffff; }
+.share-btn.facebook:hover    { background: #ffffff; }
+.share-btn.linkedin:hover    { background: #ffffff; }
+.share-btn.stumbleupon:hover { background: #ffffff; }
+.share-btn.pinterest:hover   { background: #ffffff; }
+.share-btn.reddit:hover      { background: #ffffff; }
+.share-btn.email:hover       { background: #ffffff; }
+
+.wrapingimage
+{
+float: right; 
+margin: 30px 12px 3px 4px;
+width: 40%
+}
+</style>
+</head>
+  <body class="d-flex flex-column h-100">
+    <div id="nav-border" class="container">
+  <nav id="nav" class="nav justify-content-center">
+  
+  
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/"><i data-feather="home"></i> Inicio</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/about/"><i data-feather="smile"></i> Sobre mí</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/post/"><i data-feather="edit"></i> Blog</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/tags/"><i data-feather="tag"></i> Tags</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/projects/"><i data-feather="codepen"></i> Proyectos</a>
+  
+    
+      
+    
+    
+    <a class="nav-link " href="/gallery/"><i data-feather="aperture"></i> Galería</a>
+  
+  </nav>
+</div>
+
+    <div class="container">
+      <main id="main">
+        
+
+<h1>Agregando utilidades al blog</h1>
+
+
+<i data-feather="calendar"></i> <time datetime="2020-10-12">Oct 12, 2020</time>
+
+  <br>
+  <i data-feather="tag"></i>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://sporella.xyz/tags/blogdown">blogdown</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://sporella.xyz/tags/r">R</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://sporella.xyz/tags/latinr">LatinR</a>
+  
+
+<br><br>
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>En el marco de la edición 2020 de LatinR, <a href="https://twitter.com/ma_salmon">Maëlle Salmon</a> hizo un muy buen tutorial en español sobre cómo bloguear con R Markdown. No pude verlo en vivo, pero la grabación se encuentra disponible en el <a href="https://www.youtube.com/watch?v=UYvSv8StDa8&amp;t=8508s&amp;ab_channel=LatinR">Canal de Youtube de LatinR</a>, así como todas las demás actividades de la conferencia :)</p>
+<p>Después de mirar el video, quedé muy inspirada para mejorar mi blog y seguir escribiendo aunque sea una entrada por año.</p>
+<p>Cuando comencé con mi blog en 2019, lo pensé como una especie de portafolio en donde ir registrando los talleres y eventos en los que participo y no tanto como para ir escribiendo entradas regulares. Con ese objetivo en mente, decidí usar un <a href="https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/">tema de Hugo sencillo</a> y nunca se me pasó por la mente tener, por ejemplo, un sistema de comentarios en las entradas o enlaces para compartir en redes sociales.</p>
+<p>Pero en el taller de Maëlle aprendí que es muy positivo tener interacción con los lectores y poder promocionar las entradas para que las personas puedan saber que esos contenidos existen y que puedan encontrarlos en la web.</p>
+<p>Así que comencé a averiguar cómo poner enlaces para compartir en redes sociales y cómo poner una sección de comentarios en las entradas del blog.</p>
+<p>¡Este es el resultado final!</p>
+<div class="figure">
+<img src="/img/redes_sociales.PNG" width="700" alt="" />
+<p class="caption">Íconos para compartir en Twitter, Facebook y LinkedIn, además del cuadro para dejar comentarios con Utternances</p>
+</div>
+<div id="antes-de-empezar" class="section level2">
+<h2>Antes de empezar</h2>
+<p>Es muy importante <strong>nunca modificar la carpeta del tema directamente</strong>, esto por motivos de reproducibilidad, ya que cualquier cambio que haga el creador del tema no podremos trazarlo de buena forma si es que nosotras hicimos algún cambio dentro de la carpeta original.</p>
+<p>Pero, ¿cómo podemos cambiar el tema entonces?</p>
+<p>Debemos hacerlo generando una carpeta en el directorio raíz llamada <code>layouts</code>. Lo que se encuentre dentro de esta carpeta sobreescribirá las opciones que trae el tema por defecto pero sin modificarlo directamente dentro de la carpeta <code>mi_tema/layouts</code> que es en donde se encuentran los archivos que determinan la estructura de las páginas del blog.</p>
+<p>Puedes encontrar más información <a href="https://bookdown.org/yihui/blogdown/custom-layouts.html">aquí</a>.</p>
+</div>
+<div id="enlaces-para-compartir-en-redes-sociales" class="section level2">
+<h2>Enlaces para compartir en redes sociales</h2>
+<p>Es importante averiguar primero si tu tema de Hugo ya trae estas opciones, el que yo uso no trae estas utilidades, así que tuve que ingresarlas de forma manual.</p>
+<p>Son cinco los pasos fundamentales, los códigos está modificados por mí y la fuente original es el blog <a href="https://codingnconcepts.com/hugo/social-icons-hugo/">codingnconcepts.com</a>.</p>
+<p>También pueden encontrar un código que reúne los pasos 1 y 2 en el blog <a href="http://hugocodex.org/add-ons/share-buttons/">hugocodex.org</a>.</p>
+<p><em>Pasos:</em></p>
+<ol style="list-style-type: decimal">
+<li><strong>Agregar código html para botones:</strong> este código determina las características de los botones y debe ponerse dentro de la carpeta <code>~/layouts/partials</code>. Yo nombré este archivo como <code>socialshare.html</code> y generé botones para Twitter, Facebook y LinkedIn con <a href="https://feathericons.com/">Feather Icons</a> que vienen por defecto con mi tema de Hugo.</li>
+</ol>
+<p><em>Si no tienes estos íconos puedes seguir los pasos del tutorial de <a href="https://codingnconcepts.com/hugo/social-icons-hugo/">codingnconcepts.com</a> en donde ingresan los íconos como svg.</em></p>
+<p>Debes tener en cuenta que en la línea 4 ingresé la ruta de inicio de mi página.</p>
+<pre class="bash"><code>&lt;!-- Social Share Button HTML --&gt;
+{{- if .Param &quot;socialshare&quot; }}
+  {{ $title := .Title }}
+  {{ $url := printf &quot;%s&quot; &quot;https://sporella.netlify.app&quot; }}
+  {{ $body := print $title &quot;, by &quot; .Site.Title &quot;\n&quot; .Params.description &quot;\n\n&quot; $url &quot;\n&quot; }}
+
+  &lt;section class=&quot;social-share&quot;&gt;
+    &lt;ul class=&quot;share-icons&quot;&gt;
+      &lt;!-- Twitter --&gt;
+      {{ if .Site.Params.social.share.twitter }}
+      &lt;li&gt;
+        &lt;a href=&quot;https://twitter.com/intent/tweet?&amp;amp;url={{ $url }}{{.Permalink}}&amp;amp;text={{ .Title }}%20%40sporella&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;Share on Twitter&quot; class=&quot;share-btn twitter&quot;&gt;
+          &lt;i data-feather=&quot;twitter&quot;&gt;&lt;/i&gt;
+          &lt;p&gt;Twitter&lt;/p&gt;
+          &lt;/a&gt;
+      &lt;/li&gt;
+      {{ end }}
+      &lt;!-- Facebook --&gt;
+      {{ if .Site.Params.social.share.facebook }}
+      &lt;li&gt;
+        &lt;a href=&quot;https://www.facebook.com/sharer.php?u={{ $url }}{{.Permalink}}&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;Share on Facebook&quot; class=&quot;share-btn facebook&quot;&gt;
+          &lt;i data-feather=&quot;facebook&quot;&gt;&lt;/i&gt;
+          &lt;p&gt;Facebook&lt;/p&gt;
+          &lt;/a&gt;
+      &lt;/li&gt;
+      {{ end }}
+
+      &lt;!-- LinkedIn --&gt;
+      {{ if .Site.Params.social.share.linkedin }}
+      &lt;li&gt;
+        &lt;a href=&quot;https://www.linkedin.com/shareArticle?mini=true&amp;amp;url={{ $url }}{{.Permalink}}&amp;amp;source={{ $url }}&amp;amp;title={{ $title }}&amp;amp;summary={{ $title }}&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;Share on LinkedIn&quot; class=&quot;share-btn linkedin&quot;&gt;
+          &lt;i data-feather=&quot;linkedin&quot;&gt;&lt;/i&gt;
+            &lt;p&gt;LinkedIn&lt;/p&gt;
+          &lt;/a&gt;
+      &lt;/li&gt;
+      {{ end }}
+      
+{{- end }}</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Darle estilo a los íconos:</strong> En la misma carpeta, generar un archivo que se llame <code>style.html</code> en donde pondremos el código que define el estilo de los íconos. Este código contiene también el código original que trae mi tema, el cual se encuentra al principio.</li>
+</ol>
+<pre class="bash"><code>&lt;!-- codigo original del tema--&gt;
+&lt;style&gt;
+.container {
+  max-width: {{ .Site.Params.containerMaxWidth | default &quot;700px&quot; | safeCSS }};
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+}
+#nav a.nav-link-active {
+  background-color: #212529;
+  color: #fff;
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+#footer .container {
+  padding: 1em 0;
+}
+#footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.font-125 {
+  font-size: 125%;
+}
+.tag-btn {
+  margin-bottom: 0.3em;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  background-color: transparent;
+  border-radius: 0;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+img,
+iframe,
+embed,
+video,
+audio {
+  max-width: 100%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
+
+
+&lt;!-- codigo para darle estilo a los botones --&gt;
+
+.social-share {
+    position: relative;
+    top: -0.5em;
+}
+ 
+.social-share ul {
+    margin: 0;
+}
+ 
+.social-share ul li p {
+    display: none;
+}
+ 
+.social-share .share-icons li {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+}
+ 
+.social-share .share-btn {
+    padding: 0.25em;
+    width: 3em;
+}
+ 
+.social-share-nav .share-btn h3{
+    color: #ffffff;
+}
+
+ul.share-icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+}
+
+ul.share-icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.share-icons li:last-child {
+    padding-right: 0;
+}
+
+ul.share-icons li &gt; * {
+    text-decoration: none;
+    border: 0;
+}
+
+ul.share-icons li &gt; *:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+ul.share-icons li &gt; * .label {
+    display: none;
+}
+ 
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+ 
+.share-btn:hover {
+    color: #343a40 !important;
+}
+
+.share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+.share-btn .widget-social__link-icon {
+    margin: 0;
+}
+ 
+.share-btn.twitter     { background: #343a40; }
+.share-btn.facebook    { background: #343a40; }
+.share-btn.linkedin    { background: #343a40; }
+
+
+.share-btn.twitter:hover     { background: #ffffff; }
+.share-btn.facebook:hover    { background: #ffffff; }
+.share-btn.linkedin:hover    { background: #ffffff; }
+    
+&lt;/style&gt;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Modificar archivo <code>single.html</code>:</strong> este archivo determina de qué forma se estructura el formato de la entrada del blog. En mi caso, lo podremos dentro de <code>layouts/post</code> e indica que pondrá:el título, luego la fecha y las etiquetas, luego el contenido. Y al final agregué “Compartir en:” y el código <code>{{ partial "socialshare.html" . }}</code></li>
+</ol>
+<p><em>No confundir el archivo <code>post/single.html</code> con el que se encuentra dentro de la carpeta <code>_default</code>, ya que este determina la estructura de las páginas que no son entradas del blog.</em></p>
+<pre class="bash"><code>{{ define &quot;main&quot; }}
+
+&lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+{{ partial &quot;date-and-tags.html&quot; . }}
+&lt;br&gt;&lt;br&gt;
+{{ .Content }}
+
+&lt;br&gt;&lt;br&gt;
+&lt;hr&gt;
+
+Compartir en: 
+{{ partial &quot;socialshare.html&quot; . }}
+{{ end }}</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Modificar archivo <code>config.toml</code></strong> y agregar lo siguiente:</li>
+</ol>
+<pre class="bash"><code>[Params.social.share]
+  facebook = true
+  linkedin = true
+  twitter = true</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Modificar YAML en la entrada:</strong> ahora, cuando escribimos nuestras entradas, debemos poner <code>socialshare: true</code> dentro del YAML para que aparezcan los íconos. Por ejemplo, para escribir esta entrada yo puse lo siguiente:</li>
+</ol>
+<pre class="bash"><code>---
+title: Agregando utilidades al blog
+author: Stephanie Orellana
+date: &#39;2020-10-12&#39;
+slug: agregando-utilidades-hugo
+categories:
+  - R
+tags:
+  - blogdown
+  - R
+  - LatinR
+socialshare: true
+---</code></pre>
+<p>¡Y ya puedes ver los enlaces para compartir!</p>
+<p><strong>Cosas a tener en consideración:</strong></p>
+<ul>
+<li><p>Al elegir esta opción pensé en alguna entrada a futuro en la que quizás no quería poner los botones de compartir, por eso elegí poner esta opción de forma manual en cada una y porque tenía sólo tres entradas anteriores. Si tu blog tiene muchos posteos, sería más eficiente escribir un código para que los botones aparezcan por defecto.</p></li>
+<li><p>Revisar que todos los enlaces se generen de forma correcta y funcionen. Los códigos, en especial el del paso 1, pueden variar dependiendo del tema y otros ajustes que se tengan.</p></li>
+</ul>
+</div>
+<div id="sección-de-comentarios" class="section level2">
+<h2>Sección de comentarios</h2>
+<p>Para poner la sección de comentarios seguí el tutorial de <a href="https://masalmon.eu/2019/10/02/disqus/">Maëlle Salmon</a> para hacerlo mediante Utterances.</p>
+<p>Utterances funciona utilizando los <em>issues</em> de GitHub, así que los requisitos fundamentales son:</p>
+<ul>
+<li><p>Tener el repositorio del sitio web alojado en GitHub</p></li>
+<li><p>El repositorio debe ser público para que las personas puedan interactuar mediante los <em>issues</em></p></li>
+<li><p>Las personas deben verificarse mediante una cuenta de GitHub</p></li>
+<li><p>Debes tener instalado Utterances</p></li>
+</ul>
+<p><em>Pasos:</em></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Subir repositorio a GitHub</strong></p></li>
+<li><p><strong>Instalar Utterances</strong> desde <a href="https://utteranc.es/#configuration" class="uri">https://utteranc.es/#configuration</a></p></li>
+<li><p><strong>Agregar código html para cuadro de comentarios:</strong> este código lo copié desde la configuración de Utterances y debe ponerse dentro de la carpeta <code>~/layouts/partials</code>. Yo nombré este archivo como <code>comments.html</code></p></li>
+</ol>
+<pre class="bash"><code>&lt;script src=&quot;https://utteranc.es/client.js&quot;
+        repo=&quot;sporella/blog&quot;
+        issue-term=&quot;pathname&quot;
+        label=&quot;comment&quot;
+        theme=&quot;github-light&quot;
+        crossorigin=&quot;anonymous&quot;
+        async&gt;
+&lt;/script&gt;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Modificar archivo <code>single.html</code>:</strong> es el mismo que modificamos en el paso 3 de la sección anterior, el que se encuentra en <code>~/layouts/post</code>. Debe quedar así:</li>
+</ol>
+<pre class="bash"><code>{{ define &quot;main&quot; }}
+
+&lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+{{ partial &quot;date-and-tags.html&quot; . }}
+&lt;br&gt;&lt;br&gt;
+{{ .Content }}
+
+&lt;br&gt;&lt;br&gt;
+&lt;hr&gt;
+
+Compartir en: 
+{{ partial &quot;socialshare.html&quot; . }}
+{{ partial &quot;comments.html&quot; . }}
+{{ end }}</code></pre>
+<p>¡Y con esto ya puedes ver tu caja de comentarios!</p>
+<p><strong>Cosas a tener en consideración:</strong></p>
+<ul>
+<li><p>Probar que la sección de comentarios funcione correctamente.</p></li>
+<li><p>Dejar un comentario de prueba.</p></li>
+</ul>
+</div>
+<div id="comentarios-finales" class="section level1">
+<h1>Comentarios finales</h1>
+<p>Después de trabajar en estas mejoras, mi blog parece mucho más funcional y estoy muy entusiasmada para ver cómo funciona y recibir las primeras interacciones :)</p>
+<p>Recomiendo mucho el tutorial de Maëlle y también el resto de las actividades que se realizaron en LatinR y que están en su canal de <a href="https://www.youtube.com/c/LatinR">Youtube</a>, el cual quedó como un muy buen repositorio de recursos en español, portugués e inglés para aprender sobre R.</p>
+</div>
+
+
+<br><br>
+<hr>
+
+Compartir en: 
+
+  
+  
+  
+
+  <section class="social-share">
+    <ul class="share-icons">
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?&amp;url=https%3a%2f%2fsporella.xyz%2f2020%2f10%2f12%2fagregando-utilidades-hugo%2f&amp;text=Agregando%20utilidades%20al%20blog%20%40sporella" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
+          <i data-feather="twitter"></i>
+          <p>Twitter</p>
+          </a>
+      </li>
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsporella.xyz%2f2020%2f10%2f12%2fagregando-utilidades-hugo%2f" target="_blank" rel="noopener" aria-label="Share on Facebook" class="share-btn facebook">
+          <i data-feather="facebook"></i>
+          <p>Facebook</p>
+          </a>
+      </li>
+      
+
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsporella.xyz%2f2020%2f10%2f12%2fagregando-utilidades-hugo%2f&amp;source=https%3a%2f%2fsporella.xyz&amp;title=Agregando%20utilidades%20al%20blog&amp;summary=Agregando%20utilidades%20al%20blog" target="_blank" rel="noopener" aria-label="Share on LinkedIn" class="share-btn linkedin">
+          <i data-feather="linkedin"></i>
+            <p>LinkedIn</p>
+          </a>
+      </li>
+      
+<script src="https://utteranc.es/client.js"
+        repo="sporella/blog"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+      </main>
+    </div>
+    
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    
+  </div>
+</footer>
+
+    <script src="https://sporella.xyz/js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script>
+
+
+    
+
+
+
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-180361884-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>
