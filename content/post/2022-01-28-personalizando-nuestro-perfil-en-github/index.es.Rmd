@@ -8,7 +8,7 @@ categories:
 tags:
   - GitHub
 socialshare: true
-images: ["./github-profile.png"]  
+images: ["img/github-profile.png"]  
 ---
 
 Cuando comencé a realizar proyectos de Ciencia de Datos desde el área de los Recursos Naturales, ni siquiera sabía que estaba haciendo Ciencia de Datos porque no tenía mucho contacto con ninguna comunidad de programación ni con personas que programaran fuera de mi laboratorio de investigación. Tampoco sabía la importancia de tener un portafolio de código que pudiese avalar mi experiencia programando, siempre decía: "¿Cómo compruebo que sé programar si tengo un título de Ingeniera Agrónoma?"
