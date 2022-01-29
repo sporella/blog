@@ -8,14 +8,14 @@ categories:
 tags:
   - GitHub
 socialshare: true
-images: ["github-profile.png"]  
+images: ["img/github-profile.png"]  
 ---
 
 Cuando comencé a realizar proyectos de Ciencia de Datos desde el área de los Recursos Naturales, ni siquiera sabía que estaba haciendo Ciencia de Datos porque no tenía mucho contacto con ninguna comunidad de programación ni con personas que programaran fuera de mi laboratorio de investigación. Tampoco sabía la importancia de tener un portafolio de código que pudiese avalar mi experiencia programando, siempre decía: "¿Cómo compruebo que sé programar si tengo un título de Ingeniera Agrónoma?"
 
 Tuvo que pasar el tiempo, hasta que en un taller de R-Ladies Santiago ([que también cito en este post](https://sporella.xyz/2019/09/24/hola-blogdown/)) aprendí la importancia de tener un sitio web o un perfil de GitHub en donde podamos compilar todas las actividades que hacemos: proyectos, talleres, experiencia, códigos sueltos, aportes a tidytuesday, etc. De esta forma, podemos redireccionar a un mismo sitio todo lo que comprueba nuesta experiencia cuando nos lo piden para postular a un trabajo, a una beca, a un programa de estudios, etc.
 
-En este post hablaré de una funcionalidad muy útil que está disponible desde hace algún tiempo que permite generar un perfil en GitHub utilizando un repositorio con nuestro mismo nombre de usuaria. A pesar de que en un inicio decidí compilar toda mi información en este sitio web/blog, me di cuenta de que había personas que me contactaban porque habían llegado directamente a mi GitHub, así que decidí generar un perfil breve y conectar los últimos post de mi blog a través de la utilidad [Blog post workflow de Gautam Krishna R](https://github.com/gautamkrishnar/blog-post-workflow) con GitHub actions.
+En este post hablaré de una funcionalidad muy útil que está disponible desde hace algún tiempo que permite generar un perfil en GitHub utilizando un repositorio con nuestro mismo nombre de usuaria. A pesar de que en un inicio decidí compilar toda mi información en este sitio web/blog, me di cuenta de que había personas que me contactaban porque habían llegado directamente a mi GitHub, así que decidí generar un perfil breve y conectar los últimos post de mi blog a través de la utilidad [Blog post workflow de Gautam krishna R](https://github.com/gautamkrishnar/blog-post-workflow) con GitHub actions.
 
 Así que ¡Manos a la obra!
 
@@ -39,7 +39,7 @@ En este repositorio, debemos crear un archivo README.md que será en donde escri
 
 Podemos agregar emojis [usando estos codigos](https://gist.github.com/rxaviers/7360908).
 
-## Usar `Blog post workflow` de Gautam Krishna
+## Usar `Blog post workflow` de Gautam krishna
 
 La idea de usar esta utilidad es poder conectar la lista de posteos de mi blog (también llamada `feed`) con el perfil de GitHub y que este se actualice periódicamente para encontrar los nuevos post. Veamos el paso a paso.
 
