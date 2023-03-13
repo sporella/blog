@@ -1,11 +1,24 @@
 ---
-title: "Proyectos"
+title: "Talleres"
 images: ["img/gallery_img/Vida.PNG"]
 ---
 
 ------
 
-### Talleres y Presentaciones
+# Talleres y Presentaciones
+
+#### 2022
+
+- PyCon Chile 2022 - [Haciendo mapas con Python](https://github.com/sporella/mapas_con_python)
+
+- R-Ladies Chile - [Minitaller sobre Perderle el Miedo a la Terminal](https://sporella.github.io/terminal_miedo/)
+
+- Sociedad Chilena de Estadística - [Minicurso de Análisis Espacial con R](https://github.com/sporella/analisis_espacial_soche)
+
+- PyDay Valparaíso - [Taller Introducción al Análisis de Datos Geoespaciales con Python](https://github.com/sporella/datos_geoespaciales_python)
+
+- UseR-2022 - [Taller Visualizaciones efectivas con ggplot2: más allá de las opciones por defecto](https://github.com/sporella/user2022_mas_sobre_ggplot)
+
 #### 2021
 
 - R-Ladies Chile - [Club de Lectura libro "Data Feminism" Capítulo 6](https://github.com/sporella/data_feminism_06)
@@ -28,9 +41,22 @@ images: ["img/gallery_img/Vida.PNG"]
 
 - R-Ladies Chile - [Taller sobre datos espaciales (9 de mayo 2020)](https://www.meetup.com/es/rladies-concepcion/events/270358493/)
 
+
+#### 2019
+
+- Latin R 2019 - [Utilizar R como un Sistema de Información Geográfica y hacer análisis reproducible](https://github.com/sporella/latinR2019/blob/master/latinR.pdf)
+
+#### 2018
+- satRDay Santiago 2018 - [Evaluando tendencias recientes en índices agroclimáticos utilizando imágenes satelitales MODIS](https://github.com/sporella/satRdaysantiago2018/blob/master/StephanieOrellana_satRday.pdf)
+
 ---
 
-### Docencia
+# Docencia
+
+#### 2022
+
+- Profesora Módulo Introductorio a R - Diplomado en Ciencia de Datos - Facultad de Matemáticas y Estadística UC
+
 #### 2020
 - Instructora de `{tidyverse}` - [Certificada por RStudio](https://education.rstudio.com/trainers/people/orellana+stephanie/). 
 Material de clase y estudio [acá](https://github.com/sporella/pivot)
@@ -40,16 +66,7 @@ Material de clase y estudio [acá](https://github.com/sporella/pivot)
 
 ---
 
-### Presentaciones en Conferencias
-#### 2019
-- Latin R 2019 - [Utilizar R como un Sistema de Información Geográfica y hacer análisis reproducible](https://github.com/sporella/latinR2019/blob/master/latinR.pdf)
-
-#### 2018
-- satRDay Santiago 2018 - [Evaluando tendencias recientes en índices agroclimáticos utilizando imágenes satelitales MODIS](https://github.com/sporella/satRdaysantiago2018/blob/master/StephanieOrellana_satRday.pdf)
-
----
-
-### Comunidad
+# Comunidad
 
 - Aportes desafío [#30díasdemapas](https://github.com/sporella/30daymap)
 - Aportes desafío [#30díasdegráficos](https://github.com/sporella/nightingale)
