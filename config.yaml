@@ -39,7 +39,7 @@ menu:
     pre: tag
     url: /tags/
     weight: 4
-  - name: Proyectos
+  - name: Talleres
     pre: codepen
     url: /projects/
     weight: 5
