@@ -7,7 +7,23 @@ images: ["img/gallery_img/Vida.PNG"]
 
 # Talleres y Presentaciones
 
+#### 2024
+
+- PyconUS 2024 - [Utilizando Python en una oficina tradicional](https://docs.google.com/presentation/d/1fIYSERJ9XXuxKbWG_MZpOr2-xSHCIV_G/edit?usp=drive_link&ouid=115843783799192934284&rtpof=true&sd=true)
+
+- PyLadies Valparaíso - [Club de lectura "Research Software Engineering with Python"](https://github.com/pyladies-chile/pyladies-valpo-rse)
+
+- RLadies Chile - [Si tu código demora 3 días en ejecutarse, ¡es hora de paralelizar](https://github.com/sporella/paralelo)
+
+- [Todo lo que tienes que saber para empezar a analizar datos con R](https://github.com/sporella/r_intro)
+
+- Datapalooza - [Taller de Datos Geoespaciales con Python](https://github.com/sporella/datapalooza_datos_geoespaciales)
+
 #### 2023
+
+- LatinR - ["Utilizando R, Python y Julia para el desarrollo de un sistema de detección satelital de una especie invasora (Castor canadiense) en la Patagonia"](https://github.com/sporella/latinr2023_castor)
+
+- Facultad de Matemáticas UC - [Taller de SQL desde Cero](https://github.com/sporella/taller_sql)
 
 - Python Chile, Evento Día de la Mujer - [10 buenas prácticas para comenzar en Ciencia de Datos](https://sporella.github.io/10_buenas_practicas_ds/#/title-slide)
 
