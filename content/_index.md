@@ -1,6 +1,6 @@
 ---
+title: ""
 draft: false
-title:
 ---
 # STEPHANIE ORELLANA
 
@@ -42,4 +42,6 @@ var options = {
 
 [![](images_index/github.svg)](https://github.com/sporella/) 
 [![](images_index/twitter.svg)](https://twitter.com/sporella/)
-[![](images_index/at-sign.svg)](mailto:sporella@uc.cl/)
+[![](images_index/at-sign.svg)](mailto:sporella.dev@gmail.com/)
+[![](images_index/linkedin.svg)](www.linkedin.com/in/sporella)
+[![](images_index/mastodon.svg)](https://lile.cl/@sporella)
