@@ -45,3 +45,4 @@ var options = {
 [![](images_index/at-sign.svg)](mailto:sporella.dev@gmail.com/)
 [![](images_index/linkedin.svg)](https://www.linkedin.com/in/sporella)
 [![](images_index/mastodon.svg)](https://lile.cl/@sporella)
+[![](images_index/instagram.svg)](https://www.instagram.com/sporella.dev)
